@@ -36,13 +36,12 @@ pygmentsStyle = "monokai"
     </script>
   """
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
-    {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    {name = "arxiv", url = "https://arxiv.org/a/sodini_g_1.html"},
+    {name = "scholar", url = "https://scholar.google.com/citations?user=TxwgVk0AAAAJ&hl=it&oi=ao"},
+    {name = "researchgate", url = "https://www.researchgate.net/profile/Giacomo-Sodini"},
+{name = "orcid", url = "https://orcid.org/0000-0001-9806-3576"},
+{name = "gmail", url = "mailto:sodini.giacomo@gmail.com"},
+    {name = "email", url = "mailto:giacomo.sodini@univie.ac.at"}
   ]
   metaKeywords = ["blog", "gokarna", "hugo"]
 
@@ -59,35 +58,31 @@ pygmentsStyle = "monokai"
     url = "/posts/"
     weight = 2
 
+
+[[menu.main]]
+    name = "Vita"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
   [[menu.main]]
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
+    name = "Publications"
+    pre = "<span data-feather='book'></span>"
     url = "/projects/"
     weight = 3
 
   [[menu.main]]
-    name = "Tags"
+    name = "Talks"
     pre = "<span data-feather='tag'></span>"
     url = "/tags/"
     weight = 4
 
   [[menu.main]]
-    identifier = "github"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/526avijitgupta/gokarna"
-    weight = 5
+    name = "Teaching"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 4
 
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
 
 [markup]
   [markup.tableOfContents]
