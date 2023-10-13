@@ -10,7 +10,7 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  footer = "The Marauders"
+  footer = "Giacomo Enrico Sodini"
   description = "I am a University Assistant (Post-Doc) in the group of Ulisse Stefanelli at University of Vienna."
   avatarURL = "/images/avatar.webp"
   AvatarAltText = "avatar"
