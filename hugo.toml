@@ -55,25 +55,25 @@ pygmentsStyle = "monokai"
 
 [[menu.main]]
     name = "Vita"
-    pre = "<span data-feather='book'></span>"
+    pre = "<img class='svg-inject' src='/svg/icons/activity.svg' />"
     url = "/posts/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "Publications"
-    pre = "<span data-feather='book'></span>"
+    pre = "<span data-feather='file-text'></span>"
     url = "/projects/"
     weight = 3
 
   [[menu.main]]
     name = "Talks"
-    pre = "<span data-feather='tag'></span>"
+    pre = "<span data-feather='volume-2'></span>"
     url = "/tags/"
     weight = 4
 
   [[menu.main]]
     name = "Teaching"
-    pre = "<span data-feather='tag'></span>"
+    pre = "<span data-feather='airplay'></span>"
     url = "/tags/"
     weight = 4
 
