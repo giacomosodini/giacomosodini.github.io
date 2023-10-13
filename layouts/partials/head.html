@@ -9,7 +9,7 @@
     </style>
 
     {{ $title := .Title | default .Site.Title }}
-    {{ $description := .Description | default .Site.Params.Description }}
+    {{ $description := .Description | default .Site.Params.Description  }}
     {{ $image := .Params.image | default .Site.Params.AvatarURL }}
     {{ $siteKeywords := .Site.Params.MetaKeywords | default (slice) }}
     {{ $postKeywords := .Params.tags | default (slice) }}

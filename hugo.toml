@@ -11,7 +11,9 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Giacomo Enrico Sodini"
-  description = "I am a University Assistant (Post-Doc) in the group of Ulisse Stefanelli at University of Vienna."
+  description =  """I am a University Assistant (Post-Doc) in the group of [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) at the [University of Vienna](https://www.univie.ac.at/en/).
+
+My research interests lie at the intersection of **Optimal Transport**, **Non-smooth analysis** and **Calculus of Variations**."""
   avatarURL = "/images/avatar.webp"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
@@ -46,16 +48,11 @@ pygmentsStyle = "monokai"
   metaKeywords = ["blog", "gokarna", "hugo"]
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "<span data-feather='home'></span>"
-    url = "/"
-    weight = 1
 
 
 [[menu.main]]
     name = "Vita"
-    pre = "<img class='svg-inject' src='/svg/icons/activity.svg' />"
+    pre = "<span data-feather='user'></span>"
     url = "/posts/"
     weight = 3
 
@@ -67,13 +64,13 @@ pygmentsStyle = "monokai"
 
   [[menu.main]]
     name = "Talks"
-    pre = "<span data-feather='volume-2'></span>"
+    pre = "<span data-feather='mic'></span>"
     url = "/tags/"
     weight = 4
 
   [[menu.main]]
     name = "Teaching"
-    pre = "<span data-feather='airplay'></span>"
+    pre = "<span data-feather='monitor'></span>"
     url = "/tags/"
     weight = 4
 
