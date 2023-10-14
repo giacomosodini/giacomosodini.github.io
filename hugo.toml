@@ -10,7 +10,14 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  footer = "Giacomo Enrico Sodini"
+  footer = """Giacomo Enrico Sodini. sodini.giacomo@gmail.com, giacomo.sodini@univie.ac.at
+
+Fakultät für Mathematik - Institut für Mathematik,
+Oskar-Morgenstern-Platz 1,
+1090 Wien, Österreich
+
+Room 04.126.
+"""
   description =  """I am a University Assistant (Post-Doc) in the group of [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) at the [University of Vienna](https://www.univie.ac.at/en/).
 
 My research interests lie at the intersection of **Optimal Transport**, **Non-smooth analysis** and **Calculus of Variations**."""
@@ -57,7 +64,7 @@ My research interests lie at the intersection of **Optimal Transport**, **Non-sm
     weight = 3
 
   [[menu.main]]
-    name = "Publications"
+    name = "Research"
     pre = "<span data-feather='file-text'></span>"
     url = "/projects/"
     weight = 3
