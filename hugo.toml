@@ -62,25 +62,25 @@ My research interests lie at the intersection of **Optimal Transport**, **Non-sm
 [[menu.main]]
     name = "Vita"
     pre = "<span data-feather='user'></span>"
-    url = "/posts/"
+    url = "/vita/"
     weight = 3
 
   [[menu.main]]
     name = "Research"
     pre = "<span data-feather='file-text'></span>"
-    url = "/projects/"
+    url = "/research/"
     weight = 3
 
   [[menu.main]]
     name = "Talks"
     pre = "<span data-feather='mic'></span>"
-    url = "/tags/"
+    url = "/talks/"
     weight = 4
 
   [[menu.main]]
     name = "Teaching"
     pre = "<span data-feather='monitor'></span>"
-    url = "/tags/"
+    url = "/teaching/"
     weight = 4
 
 
