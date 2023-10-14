@@ -10,7 +10,9 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  footer = """Giacomo Enrico Sodini. sodini.giacomo@gmail.com, giacomo.sodini@univie.ac.at
+  footer = """Giacomo Enrico Sodini
+
+sodini.giacomo@gmail.com, giacomo.sodini@univie.ac.at
 
 Fakultät für Mathematik - Institut für Mathematik,
 Oskar-Morgenstern-Platz 1,
