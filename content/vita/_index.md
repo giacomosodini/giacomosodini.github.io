@@ -2,7 +2,7 @@
 title: "Vita"
 type: page
 ---
-
+A complete CV can be downloaded [here](https://drive.google.com/file/d/1oXDjm5jI6Mjjkh8K41TOxRSXu85c4Tov/view).
 
 ### Positions
 
