@@ -23,7 +23,7 @@ Room 04.126.
   description =  """I am a University Assistant (Post-Doc) in the group of [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) at the [University of Vienna](https://www.univie.ac.at/en/).
 
 My research interests lie at the intersection of **Optimal Transport**, **Non-smooth analysis** and **Calculus of Variations**."""
-  avatarURL = "/images/avatar.webp"
+  avatarURL = "/images/avatar.jpeg"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
   customHeadHTML = """
@@ -89,3 +89,6 @@ My research interests lie at the intersection of **Optimal Transport**, **Non-sm
     startLevel = 1
     endLevel = 4
     ordered = false
+
+[markup.goldmark.renderer]
+unsafe = true

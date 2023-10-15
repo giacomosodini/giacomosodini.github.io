@@ -166,7 +166,7 @@ In addition to [Hugo global configuration](https://gohugo.io/overview/configurat
 
 ### Avatar URL
 
-This is the image url for the avatar on the homepage and the header.
+This is the image url for the  on the homepage and the header.
 
 ```toml
 [params]
