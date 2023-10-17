@@ -18,8 +18,8 @@ type: page
 - 04.2020 - "SeMiNarri di Matematica" - University of Pavia, Pavia
 
 
-<div style=" height:430px; border:2px solid #eee; display:inline-block; overflow:hidden; margin:0 auto;">
-<iframe style="position:relative; top:-50px; border:none;" 
-      src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&noprof=1"
-      width="850" height="480"></iframe>
+
+
+<div class="google-map">
+     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&noprof=1" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

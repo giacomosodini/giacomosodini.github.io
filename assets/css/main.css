@@ -624,3 +624,18 @@ table td {
 .prev-post, .next-post {
   max-width: 33%;
 }
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: -1em;
+  position: absolute;
+  border: inherit;
+  clip-path: polygon(0% 15%, 100% 15%, 100% 100%, 0% 100%);
+}
