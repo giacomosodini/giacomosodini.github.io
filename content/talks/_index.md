@@ -16,7 +16,8 @@ type: page
 - 05.2022 - "Obersemianr" - TUM, Munich
 - 11.2021 - "Mathematics Department Seminars" - Politecnico di Milano, Milano
 - 04.2020 - "SeMiNarri di Matematica" - University of Pavia, Pavia
-
+<br>
+<br>
 
 
 
