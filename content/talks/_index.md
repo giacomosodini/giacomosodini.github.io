@@ -21,5 +21,5 @@ type: page
 
 
 <div class="google-map">
-     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&noprof=1" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&noprof=1" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
