@@ -626,18 +626,19 @@ table td {
 }
 
 .google-map {
-  padding-bottom: 75%;
+  padding-bottom: 100%;
   position: relative;
   overflow: hidden;
   height:0;
+  margin-bottom: -410px;
 }
 
 .google-map iframe {
-  height: 100%;
+  height: 70%;
   width: 100%;
   left: 0;
   top: 0em;
   position: absolute;
   border: inherit;
-  margin-top: -150px;
+  margin-top: -180px;
 }
