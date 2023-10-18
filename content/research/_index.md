@@ -3,7 +3,7 @@ title: "Research"
 type: page
 ---
 
-My main research interest are **Optimal Transport** theory and its applications to different areas of Mathematical Analysis. I am interested in evolutions problems in the space of measures, in the generalization of Optimal Transport theory to the broader setting of positive measures and in the study of Metric Sobolev spaces on spaces of measures.
+My main research interests are **Optimal Transport** theory and its applications to different areas of Mathematical Analysis. I am interested in evolutions problems in the space of measures, in the generalization of Optimal Transport theory to the broader setting of positive measures and in the study of Metric Sobolev spaces on spaces of measures.
 
 
 <img src = "OT_t.svg" />
