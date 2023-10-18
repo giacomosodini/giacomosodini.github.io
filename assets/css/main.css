@@ -629,7 +629,7 @@ table td {
   position: relative;
   overflow: hidden;
   height:0;
-  padding-bottom:70%;
+  padding-bottom: 550px;
   margin-bottom:-180px;
 }
 
@@ -641,5 +641,5 @@ table td {
   top: 0em;
   position: absolute;
   border: inherit;
-  margin-top:-180px;
+  margin-top: -110px;
 }
