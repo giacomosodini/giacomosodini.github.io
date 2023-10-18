@@ -630,7 +630,9 @@ table td {
   position: relative;
   overflow: hidden;
   height:0;
+  margin-bottom: -235px;
 }
+
 
 .google-map iframe {
   height: 70%;
@@ -639,6 +641,5 @@ table td {
   top: 0em;
   position: absolute;
   border: inherit;
-  margin-top: -180px;
-  margin-bottom: -180px;
+ 
 }
