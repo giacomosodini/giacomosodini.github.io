@@ -626,7 +626,7 @@ table td {
 }
 
 .google-map {
-  padding-bottom: 70%;
+  padding-bottom: 75%;
   position: relative;
   overflow: hidden;
   height:0;
@@ -636,7 +636,7 @@ table td {
   height: 100%;
   width: 100%;
   left: 0;
-  top: 3em;
+  top: 0em;
   position: absolute;
   border: inherit;
 }
