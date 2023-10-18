@@ -636,7 +636,7 @@ table td {
   height: 100%;
   width: 100%;
   left: 0;
-  top: -5em;
+  top: -2em;
   position: absolute;
   border: inherit;
   clip-path: polygon(0% 20%, 100% 20%, 100% 100%, 0% 100%);
