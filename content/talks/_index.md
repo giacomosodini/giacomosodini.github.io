@@ -13,12 +13,12 @@ type: page
 - 10.2022 - "Optimal Transportation and Application", SNS, Pisa
 - 07.2022 - "KU-LMU-TUM Joint Seminar" - TUM, Munich
 - 06.2022 - "PIMS- IFDS- NSF Summer School on Optimal Transport" - University of Washington, Seattle 
-- 05.2022 - "Obersemianr" - TUM, Munich
+- 05.2022 - "Oberseminar" - TUM, Munich
 - 11.2021 - "Mathematics Department Seminars" - Politecnico di Milano, Milano
 - 04.2020 - "SeMiNarri di Matematica" - University of Pavia, Pavia
 
 
 
 <div class="google-map">
-     <iframe {max-height: 100%;} src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&hl=en" width="100" height="400" style="bottom:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&hl=en" width="100" height="400" style="bottom:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
