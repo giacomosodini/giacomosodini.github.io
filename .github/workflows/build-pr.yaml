@@ -2,7 +2,8 @@ name: pulls
 
 on:
   pull_request_target:
-    branches: [main]
+    branches: 
+      -main
 
 env:
   REPO_URL: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
