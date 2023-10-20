@@ -1,0 +1,20 @@
+build:
+  image: ctornau/latex
+  stage: build
+  artifacts:
+    paths:
+      - main.pdf
+
+pages:
+  image: alpine:latest
+  stage: deploy
+  dependencies:
+    - build
+  script:
+    # Feel free to change the mv target to something else. You will need to update the index.html though
+    - mv main.pdf public/main.pdf
+
+  artifacts:
+    paths:
+      - public
+    
