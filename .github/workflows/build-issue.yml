@@ -1,0 +1,73 @@
+name: issues
+
+on:
+  issues:
+      types: [opened, edited]
+
+env:
+  REPO_URL: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
+
+jobs:
+  build:
+    if: startsWith(github.event.issue.title, '[Build]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install dos2unix
+
+          LAST_TAG=$(curl -s https://api.github.com/repos/tectonic-typesetting/tectonic/releases/latest | jq -r .tag_name)
+          VERSION="${LAST_TAG##tectonic@}"
+
+          wget -q https://github.com/tectonic-typesetting/tectonic/releases/latest/download/tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz
+          tar -zxf tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz -C /usr/local/bin
+
+      - name: Extract code
+        run: |
+          echo $ISSUE_BODY | dos2unix -c mac > issue_body.txt
+          sed -n '/%%build/, /%%dliub/{ /%%build/! { /%%dliub/! p } }' issue_body.txt > build/main.tex
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+
+      - name: Build PDF
+        run: tectonic -X compile build/main.tex
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: main
+          path: build/main.pdf
+
+      - name: Find comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-author: 'github-actions[bot]'
+        if: always()
+
+      - name: Post comment (success)
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
+          body: |
+            Hi, @${{ github.event.sender.login }}! :wave: <br>
+            The workflow run has **succeeded**. [**Click here**](${{ env.LOG_URL }}) to download your results.
+        env:
+          LOG_URL: ${{ env.REPO_URL }}/actions/runs/${{ github.run_id }}?check_suite_focus=true
+
+      - name: Post comment (failure)
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
+          body: |
+            Sorry, @${{ github.event.sender.login }}! :disappointed: <br>
+            The workflow run has **failed**. [**Click here**](${{ env.LOG_URL }}) to see the build log.
+        env:
+          LOG_URL: ${{ env.REPO_URL }}/actions/runs/${{ github.run_id }}?check_suite_focus=true
+        if: failure()
