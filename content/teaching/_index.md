@@ -3,7 +3,7 @@ title: "Teaching"
 type: page
 ---
 
-[PDF](https://github.com/giacomosodini/giacomosodini.github.io/releases/download/test/main.pdf#toolbar=0)
+[PDF](main.pdf)
 
 
 ### At University of Vienna

@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
-          git add cv/main.pdf
+          git add content/teaching/main.pdf
           git commit -m "Add compiled PDF"
           git push
