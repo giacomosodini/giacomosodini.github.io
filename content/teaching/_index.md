@@ -3,11 +3,8 @@ title: "Teaching"
 type: page
 ---
 
-
 ### At University of Vienna
 - Teaching assistant for the course Topologie und Funktionalanalysis. WiSe 2023-2024.
-
-
 
 
 ### At Bocconi University
