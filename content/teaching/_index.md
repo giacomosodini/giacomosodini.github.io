@@ -4,6 +4,8 @@ type: page
 ---
 
 [Download file](./main.pdf)
+[Download file](cv/main.pdf)
+
 
 ### At University of Vienna
 - Teaching assistant for the course Topologie und Funktionalanalysis. WiSe 2023-2024.
