@@ -1,0 +1,41 @@
+name: pulls
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    tags:
+      - "v*.*.*"
+    branches:
+      - main
+env:
+  REPO_URL: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Install dependencies
+        run: |
+          LAST_TAG=$(curl -s https://api.github.com/repos/tectonic-typesetting/tectonic/releases/latest | jq -r .tag_name)
+          VERSION="${LAST_TAG##tectonic@}"
+
+          wget -q https://github.com/tectonic-typesetting/tectonic/releases/latest/download/tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz
+          tar -zxf tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz -C /usr/local/bin
+
+      - name: Build PDF
+        run: tectonic -X compile cv/main.tex
+
+      - name: Release with Notes
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name : test
+          files: cv/main.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
