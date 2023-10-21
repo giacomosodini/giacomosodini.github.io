@@ -12,14 +12,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Setup TeX Live
+      - name: Setup TeX Live and Fix Missing Packages
         run: |
-          sudo apt-get install -y texlive
+          sudo apt-get update
+          sudo apt-get install -y --fix-missing texlive
         # Aggiungi altri pacchetti LaTeX necessari se ce ne sono
 
       - name: Compile LaTeX to PDF
         run: |
-          pdflatex -interaction=nonstopmode -output-directory=cv main.tex
+          pdflatex -interaction=nonstopmode -output-directory=cv  main.tex
         # Modifica 'yourfile.tex' con il nome del tuo file LaTeX e 'output-dir' con la cartella di output desiderata
 
       - name: Move PDF to Repository
