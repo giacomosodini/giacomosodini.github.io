@@ -3,7 +3,7 @@ title: "Teaching"
 type: page
 ---
 
-[PDF](main.pdf)
+[PDF](./main.pdf)
 
 
 ### At University of Vienna

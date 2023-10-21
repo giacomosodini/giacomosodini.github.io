@@ -25,7 +25,7 @@ jobs:
 
       - name: Move PDF to Repository
         run:
-          mv cv/main.pdf content/teaching/
+mv cv/main.pdf content/teaching/
         # Modifica 'output-dir' con la cartella di output specificata nel passaggio precedente e 'yourfile.pdf' con il nome del tuo file PDF
 
       - name: Commit and Push Changes
