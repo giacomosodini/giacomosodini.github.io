@@ -28,6 +28,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           mv cv/main.pdf output.pdf
-          git add cv/output.pdf
+          git add output.pdf
           git commit -m "Aggiorna il file PDF"
           git push
