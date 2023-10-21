@@ -3,8 +3,6 @@ title: "Teaching"
 type: page
 ---
 
-[ciao](main.pdf)
-
 ### At University of Vienna
 - Teaching assistant for the course Topologie und Funktionalanalysis. WiSe 2023-2024.
 
