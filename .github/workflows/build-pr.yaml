@@ -21,7 +21,7 @@ jobs:
       - name: Compile LaTeX to PDF
         run: |
           pdflatex -interaction=nonstopmode -output-directory=cv  main.tex
-        # Modifica 'yourfile.tex' con il nome del tuo file LaTeX e 'output-dir' con la cartella di output desiderata
+        # Modificea 'yourfile.tex' con il nome del tuo file LaTeX e 'output-dir' con la cartella di output desiderata
 
       - name: Move PDF to Repository
         run: |
