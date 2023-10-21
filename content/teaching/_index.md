@@ -3,8 +3,7 @@ title: "Teaching"
 type: page
 ---
 
-<a href="https://giacomosodini.github.io/cv/main.pdf" target="_blank">PDF.</a> 
-
+[ciao](main.pdf)
 
 ### At University of Vienna
 - Teaching assistant for the course Topologie und Funktionalanalysis. WiSe 2023-2024.
