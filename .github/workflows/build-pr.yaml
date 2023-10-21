@@ -1,0 +1,36 @@
+name: Compile LaTeX to PDF
+
+on:
+  push:
+    branches:
+      - main # Cambia questo se stai usando un branch diverso
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup TeX Live and Fix Missing Packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --fix-missing texlive
+        # Aggiungi altri pacchetti LaTeX necessari se ce ne sono
+
+      - name: Compile LaTeX to PDF
+        run: |
+          pdflatex -interaction=nonstopmode -output-directory=cv  main.tex
+        # Modificea 'yourfile.tex' con il nome del tuo file LaTeX e 'output-dir' con la cartella di output desiderata
+
+      - name: Move PDF to Repository
+        run: mv cv/main.pdf cv/
+        # Modifica 'output-dir' con la cartella di output specificata nel passaggio precedente e 'yourfile.pdf' con il nome del tuo file PDF
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add cv/main.pdf
+          git commit -m "Add compiled PDF"
+          git push
