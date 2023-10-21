@@ -5,7 +5,10 @@ on:
     branches:
       - main # o il nome del tuo branch principale
 
-  permission: write    
+permissions:
+  contents: read
+  pages: write
+  id-token: write   
 
 jobs:
   build:
