@@ -1,41 +1,37 @@
-name: pulls
+name: Compile LaTeX to PDF
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    tags:
-      - "v*.*.*"
     branches:
-      - main
-env:
-  REPO_URL: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
-
-permissions:
-  contents: write
+      - main # Cambia questo se stai usando un branch diverso
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Setup TeX Live
         run: |
-          LAST_TAG=$(curl -s https://api.github.com/repos/tectonic-typesetting/tectonic/releases/latest | jq -r .tag_name)
-          VERSION="${LAST_TAG##tectonic@}"
+          sudo apt-get install -y texlive
+        # Aggiungi altri pacchetti LaTeX necessari se ce ne sono
 
-          wget -q https://github.com/tectonic-typesetting/tectonic/releases/latest/download/tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz
-          tar -zxf tectonic-$VERSION-x86_64-unknown-linux-gnu.tar.gz -C /usr/local/bin
+      - name: Compile LaTeX to PDF
+        run: |
+          pdflatex -interaction=nonstopmode -output-directory=cv main.tex
+        # Modifica 'yourfile.tex' con il nome del tuo file LaTeX e 'output-dir' con la cartella di output desiderata
 
-      - name: Build PDF
-        run: tectonic -X compile source/main.tex
+      - name: Move PDF to Repository
+        run: |
+          mkdir -p pdf
+          mv cv/main.pdf pdf/
+        # Modifica 'output-dir' con la cartella di output specificata nel passaggio precedente e 'yourfile.pdf' con il nome del tuo file PDF
 
-      - name: Release with Notes
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name : test
-          files: source/main.pdf
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add pdf/main.pdf
+          git commit -m "Add compiled PDF"
+          git push
