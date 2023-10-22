@@ -2,7 +2,7 @@ name: second
 
 on:
   workflow_run:
-    workflows: ["CI build"]
+    workflows: ["first"]
     types:
       - completed
   branches: 
