@@ -1,0 +1,108 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{latexsym}\usepackage{amsbsy}\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+%\usepackage[latin1]{inputenc}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,RE]{\sc PS FA+TOP -- Sodini/Teschl -- WS23/24}
+\fancyhead[RO,LE]{\thepage}
+\cfoot{}
+\addtolength{\headheight}{1.5pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\theenumii}{\roman{enumii}}
+\renewcommand{\labelenumii}{(\theenumii)}
+\newcommand{\ti}{\tilde}
+\newcommand{\bs}{\backslash}
+\newcommand{\nn}{\nonumber}
+\newcommand{\ol}{\overline}
+\newcommand{\ul}{\underline}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\mb}{\mbox}
+\newcommand{\ba}{\begin{array}}
+\newcommand{\ea}{\end{array}}
+
+\newcommand{\eps}{\varepsilon}
+\newcommand{\vphi}{\varphi}
+\newcommand{\om}{\omega}
+\newcommand{\gam}{\gamma}
+\newcommand{\sig}{\sigma}
+\newcommand{\lam}{\lambda}
+
+\newcommand{\id}{{\mathbb I}}
+\newcommand{\I}{\mathrm{i}}
+\newcommand{\E}{\mathrm{e}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{{\mathbb N}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\T}{{\mathbb T}}
+\newcommand{\blo}{\mathfrak{L}}
+\newcommand{\clo}{\mathfrak{C}}
+\newcommand{\FT}{\mathcal{F}}
+\newcommand{\MT}{\mathcal{M}}
+\newcommand{\tr}{{\rm tr}}
+\newcommand{\hr}{\mathfrak{H}}
+\newcommand{\sr}{\mathcal{S}}
+\newcommand{\db}{\mathfrak{D}}
+\newcommand{\qb}{\mathfrak{Q}}
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calI}{\mathcal{I}}
+\newcommand{\spr}[2]{\langle #1 , #2 \rangle}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\supp}{\mathrm{supp}}
+\newcommand{\spn}{\mathrm{span}}
+\renewcommand{\ker}{\mathrm{Ker}}
+\newcommand{\ran}{\mathrm{Ran}}
+\newcommand{\re}{\mathrm{Re}}
+\newcommand{\im}{\mathrm{Im}}
+\newcommand{\Ran}{{\rm Ran}}
+\newcommand{\intp}[1]{[\![ #1 ]\!]}
+\DeclareMathOperator{\lspan}{span}
+\DeclareMathOperator{\gram}{\Gamma}
+\DeclareMathOperator{\dist}{dist}
+\DeclareMathOperator*{\slim}{s-lim}
+\DeclareMathOperator*{\wlim}{w-lim}
+\DeclareMathOperator*{\wslim}{w*-lim}
+
+
+\makeatletter
+\newif\ifsolutions
+\solutionstrue
+\newenvironment{solution}%
+{%
+\ifsolutions\par\noindent\color{gray}\normalfont\textbf{Solution.}
+\else\setbox0=\vbox\bgroup\color@begingroup\fi
+}{%
+\ifsolutions
+\else\color@endgroup\egroup\fi
+}%
+\makeatother
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+  {\bf \Large PS ultimo und Funktionalanalysis} \\[1em]
+{\bf \large Giacomo Sodini und Gerald Teschl}\\[1em]
+  { \large WS2023/24}
+\end{center}
+\vskip3em
+Note: References refer to the lecture notes.
+\vskip1em
+\begin{enumerate}
+\item
+Suppose $\sum_{n=1}^\infty |c_n|<\infty$. Show that
+\[\ifsolutions\tag{$*$}\fi
+u(t,x) := \sum_{n=1}^\infty c_n \E^{-(\pi n)^2 t} \sin(n \pi x), 
+\]
+is continuous for $(t,x)\in[0,\infty)\times[0,1]$ and solves the heat equation for $(t,x)\in(0,\infty)\times[0,1]$.
+(Hint: Weierstrass M-test. When can you interchange
+the order of summation and differentiation?)
+
+\end{enumerate}
+\end{document}
