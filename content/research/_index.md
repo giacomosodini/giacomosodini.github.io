@@ -23,8 +23,9 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Preprints
 
-1. G. Cavagnari, G. Savaré, G. E. Sodini. **A Lagrangian approach to dissipative evolutions in Wasserstein spaces**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6034/CSS_2023_1.pdf)
-2. G. Cavagnari, G. Savaré, G. E. Sodini. **Extension of monotone operators and Lipschitz maps invariant for a group of isometries**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6035/CSS_2023_2.pdf)
+1. M. Fornasier, P. Heid, G. E. Sodini. **Approximation Theory, Computing, and Deep Learning on the Wasserstein Space**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6265/fhs_23.pdf)
+2. G. Cavagnari, G. Savaré, G. E. Sodini. **A Lagrangian approach to dissipative evolutions in Wasserstein spaces**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6034/CSS_2023_1.pdf)
+3. G. Cavagnari, G. Savaré, G. E. Sodini. **Extension of monotone operators and Lipschitz maps invariant for a group of isometries**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6035/CSS_2023_2.pdf)
 
 
 ### Books
