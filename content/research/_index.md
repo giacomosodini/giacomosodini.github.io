@@ -36,8 +36,7 @@ My main research interests are **Optimal Transport** theory and its applications
 ### Works in progress
 
 1. L. Dello Schiavo, G. E. Sodini. **Metric Sobolev spaces on the Hellinger Kantorovich space of positive measures**.
-2. M. Fornasier, P. Heid, G. E. Sodini. **Numerics and Deep Learning on Wasserstein spaces**.
-3. G. Savaré, G. E. Sodini. **Unbalanced Optimal Transport: relaxation, duality, optimality and Monge formulation**.
+2. G. Savaré, G. E. Sodini. **Unbalanced Optimal Transport: relaxation, duality, optimality and Monge formulation**.
 
 
 
