@@ -2,6 +2,7 @@
 title: "Talks"
 type: page
 ---
+- 11.2023 - "Pobability group seminar" - Université Côte d'Azur, Nice
 - 11.2023 - "Probability group internal seminar" - University of Vienna, Vienna
 - 09.2023 - "The Mathematics of Subjective Probability" - Bicocca University, Milano
 - 05.2023 - "PDE Afternoon" - University of Vienna, Vienna
