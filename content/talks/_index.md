@@ -9,7 +9,7 @@ type: page
 - 05.2023 - "PDE Afternoon" - University of Vienna, Vienna
 - 04.2023 - "OTMFML" - IAS/TUM, Munich
 - 01.2023 - "Maas group weakly seminar" - ISTA, Klosterneuburg
-- 11.2023 - "Geometric Analysis and PDEs at PoliMi" - Politecnico di Milano, Milano
+- 11.2022 - "Geometric Analysis and PDEs at PoliMi" - Politecnico di Milano, Milano
 - 11.2022 - "Austrian Calculus of Variations day" - University of Salzburg, Salzburg
 - 11.2022 - "Smooth Functions on Rough Spaces and Fractals with Connections to Curvature Functional Inequalities" - BIRS, Banff
 - 10.2022 - "Seminar on Calculus of Variations" - University of Vienna, Vienna
