@@ -25,8 +25,9 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Preprints
 
-1. M. Fornasier, P. Heid, G. E. Sodini. **Approximation Theory, Computing, and Deep Learning on the Wasserstein Space**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6265/fhs_23.pdf)
-2. G. Cavagnari, G. Savaré, G. E. Sodini. **A Lagrangian approach to dissipative evolutions in Wasserstein spaces**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6034/CSS_2023_1.pdf)
+1. G. Savaré, G. E. Sodini. **A relaxation viewpoint to Unbalanced Optimal Transport: duality, optimality and Monge formulation**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6346/ss24.pdf)
+2. M. Fornasier, P. Heid, G. E. Sodini. **Approximation Theory, Computing, and Deep Learning on the Wasserstein Space**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6265/fhs_23.pdf)
+3. G. Cavagnari, G. Savaré, G. E. Sodini. **A Lagrangian approach to dissipative evolutions in Wasserstein spaces**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6034/CSS_2023_1.pdf)
 
 
 ### Books
@@ -37,7 +38,6 @@ My main research interests are **Optimal Transport** theory and its applications
 ### Works in progress
 
 1. L. Dello Schiavo, G. E. Sodini. **Metric Sobolev spaces on the Hellinger Kantorovich space of positive measures**.
-2. G. Savaré, G. E. Sodini. **Unbalanced Optimal Transport: relaxation, duality, optimality and Monge formulation**.
 
 
 
