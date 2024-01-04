@@ -37,7 +37,7 @@ jobs:
       - name: Setup TeX Live and Fix Missing Packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y --fix-missing texlive-full
+          sudo apt-get install -y --fix-missing texlive
         # Aggiungi altri pacchetti LaTeX necessari se ce ne sono
 
       - name: Compile LaTeX to PDF
