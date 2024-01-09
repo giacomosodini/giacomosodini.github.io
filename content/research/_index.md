@@ -10,7 +10,7 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Journal papers
 
-1. G. Cavagnari, G. Savaré, G. E. Sodini. **Extension of monotone operators and Lipschitz maps invariant for a group of isometries**. Canadian Journal of Mathematics, (2023). [PDF](https://cvgmt.sns.it/media/doc/paper/6035/CSS_2023_2.pdf)
+1. G. Cavagnari, G. Savaré, G. E. Sodini. **Extension of monotone operators and Lipschitz maps invariant for a group of isometries**. Canadian Journal of Mathematics, Published online, (2023). [PDF](https://cvgmt.sns.it/media/doc/paper/6035/css_2023_b.pdf)
 
 2. M. Fornasier, G. Savaré, G. E. Sodini. **Density of  subalgebras of Lipschitz functions in metric Sobolev spaces and applications to Wasserstein Sobolev spaces**. Journal of Functional Analysis, 285, (2023), Issue 11. [PDF](https://cvgmt.sns.it/media/doc/paper/5710/1-s2.0-S0022123623003105-main.pdf)
 
