@@ -6,6 +6,7 @@ type: page
 
 
 ### At University of Vienna
+- Teaching assistant for the course Analysis 2. SoSe 2024.
 - Teaching assistant for the course Topologie und Funktionalanalysis. WiSe 2023-2024.
 
 
