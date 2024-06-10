@@ -10,7 +10,7 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Journal papers
 
-1. G. Savaré, G. E. Sodini. **A relaxation viewpoint to Unbalanced Optimal Transport: duality, optimality and Monge formulation**. Accepted for publication in Journal de Mathématiques Pures et Appliquées, (2024). [Preprint](https://cvgmt.sns.it/media/doc/paper/6346/ss24.pdf)
+1. G. Savaré, G. E. Sodini. **A relaxation viewpoint to Unbalanced Optimal Transport: duality, optimality and Monge formulation**. Journal de Mathématiques Pures et Appliquées, 188 (2024). [PDF](https://cvgmt.sns.it/media/doc/paper/6346/1-s2.0-S0021782424000564-main.pdf)
 
 2. G. Cavagnari, G. Savaré, G. E. Sodini. **Extension of monotone operators and Lipschitz maps invariant for a group of isometries**. Canadian Journal of Mathematics, Published online, (2023). [PDF](https://cvgmt.sns.it/media/doc/paper/6035/css_2023_b.pdf)
 
