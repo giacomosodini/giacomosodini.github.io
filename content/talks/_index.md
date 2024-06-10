@@ -2,6 +2,8 @@
 title: "Talks"
 type: page
 ---
+- 05.2024 - "Lions-Magenes days 2024" - University of Pavia, Pavia
+- 04.2024 - "Variational Analysis, Models and Methods in Measure Spaces" - CIRM, Marseille
 - 11.2023 - "Austrian Calculus of Variations day" - TU Wien, Vienna
 - 11.2023 - "Pobability group seminar" - Université Côte d'Azur, Nice
 - 11.2023 - "Probability group internal seminar" - University of Vienna, Vienna
