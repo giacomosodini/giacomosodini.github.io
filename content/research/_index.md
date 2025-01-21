@@ -10,7 +10,7 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Journal papers
 
-1. M. Fornasier, P. Heid, G. E. Sodini. **Approximation Theory, Computing, and Deep Learning on the Wasserstein Space**. Accepted for publication in Mathematical Models and Methods in Applied Sciences [Preprint](https://cvgmt.sns.it/media/doc/paper/6265/fhs_23.pdf)
+1. M. Fornasier, P. Heid, G. E. Sodini. **Approximation Theory, Computing, and Deep Learning on the Wasserstein Space**. Accepted for publication in Mathematical Models and Methods in Applied Sciences (2025) [Preprint](https://cvgmt.sns.it/media/doc/paper/6265/fhs_23.pdf)
 
 2. G. Savaré, G. E. Sodini. **A relaxation viewpoint to Unbalanced Optimal Transport: duality, optimality and Monge formulation**. Journal de Mathématiques Pures et Appliquées, 188 (2024). [PDF](https://cvgmt.sns.it/media/doc/paper/6346/1-s2.0-S0021782424000564-main.pdf)
 

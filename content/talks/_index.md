@@ -2,6 +2,10 @@
 title: "Talks"
 type: page
 ---
+- 11.2024 - "Math department seminar" - Univerity of Jyväskylä, Jyväskylä
+- 11.2024 - "Austrian Calculus of Variations day" - University of Innsbruck, Innsbruck
+- 10.2024 - "Analysis group seminar" - University of Durham, Durham
+- 09.2024 - "MeRiOT" - Varenna
 - 05.2024 - "Lions-Magenes days 2024" - University of Pavia, Pavia
 - 04.2024 - "Variational Analysis, Models and Methods in Measure Spaces" - CIRM, Marseille
 - 11.2023 - "Austrian Calculus of Variations day" - TU Wien, Vienna
