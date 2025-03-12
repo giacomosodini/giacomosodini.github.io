@@ -29,6 +29,8 @@ My main research interests are **Optimal Transport** theory and its applications
 
 ### Preprints
 
+1. L. Dello Schiavo, G. E. Sodini. **The Hellinger-Kantorovich metric measure geometry on spaces of measures**. [Preprint](https://cvgmt.sns.it/media/doc/paper/7026/2025-02-16-SobolevHK.pdf)
+
 
 1. G. Cavagnari, G. Savaré, G. E. Sodini. **A Lagrangian approach to dissipative evolutions in Wasserstein spaces**. [Preprint](https://cvgmt.sns.it/media/doc/paper/6034/CSS_2023_1.pdf)
 
