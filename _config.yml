@@ -291,8 +291,9 @@ scholar:
 
   query: "@*"
   group_by: type
-  group_order: descending
-  order: ascending
+  sort_by: year
+  order: descending
+  group_order: ["preprint", "article"]
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
