@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PosDoc - University of Vienna
+subtitle: PostDoc - University of Vienna
 
 profile:
   align: right
