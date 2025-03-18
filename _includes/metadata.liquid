@@ -100,8 +100,8 @@
     {% capture link %}http://lattes.cnpq.br/{{ site.lattes_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if site.osf_id %}
-    {% capture link %}https://osf.io/{{ site.osf_id }}/{% endcapture %}
+  {% if site.arxiv_id %}
+    {% capture link %}https://arxiv.com/a/{{ site.arxiv_id }}/{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.research_gate_profile %}
