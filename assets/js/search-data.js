@@ -458,18 +458,18 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=TxwgVk0AAAAJ", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0001-9806-3576", "_blank");
-        },
-      },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
         handler: () => {
           window.open("https://osf.arxiv.com/a/sodini_g_1/", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-9806-3576", "_blank");
         },
       },{
         id: 'social-researchgate',
