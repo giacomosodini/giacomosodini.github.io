@@ -17,15 +17,15 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "Research",
-          description: "My main research intersets.",
+          title: "research",
+          description: "my main research intersets.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-activities",
-          title: "activities",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-talks",
+          title: "talks",
+          description: "This is a list of selected talks I gave.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
