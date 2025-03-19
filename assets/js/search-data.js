@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "research",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Research",
+          description: "My main research intersets.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "these are the courses I taught.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
