@@ -10,29 +10,29 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order.",
+          title: "Publications",
+          description: "Here you can find a list of my publications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "research",
-          description: "my main research intersets.",
+          title: "Research",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-talks",
-          title: "talks",
+          title: "Talks",
           description: "This is a list of selected talks I gave.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "these are the courses I taught.",
+          title: "Teaching",
+          description: "These are the courses I taught.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
