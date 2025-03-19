@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Office 04.126</p>
     <p>Universität Wien - Fakultät für Mathematik </p>
     <p>Oskar-Morgenstern-Platz 1</p>
     <p>1090, Wien, Austria</p>

@@ -8,6 +8,7 @@ nav_order: 7
 nav_title: "talks"
 ---
 
+- **01.2025** - *"Dolomites Winter School"* - Folgarida
 - **11.2024** - *"Math department seminar"* - University of Jyväskylä, Jyväskylä
 - **11.2024** - *"Austrian Calculus of Variations day"* - University of Innsbruck, Innsbruck
 - **10.2024** - *"Analysis group seminar"* - University of Durham, Durham
