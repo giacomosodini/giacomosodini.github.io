@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /research/
-title: Research
-description: My main research intersets.
+title: research
+description: my main research intersets.
 nav: true
 nav_order: 6
 ---
