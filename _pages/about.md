@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I am a mathematician working on Optimal Transport and non-smooth analysis, and a PostDoc in the group of [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) at the [Faculty of Mathematics](https://mathematik.univie.ac.at/en/) of the [University of Vienna](https://www.univie.ac.at/en/).
+Welcome! I am a mathematician working on Optimal Transport, Non-Smooth Analysis, and Calculus of Variations. Currently I am a PostDoc in the research group of [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) at the [Faculty of Mathematics](https://mathematik.univie.ac.at/en/) of the [University of Vienna](https://www.univie.ac.at/en/).
 
-Until September 20222, I was a PhD student at [TU Munich](https://www.tum.de/en/) in the group of [Massimo Fornasier](https://www.professoren.tum.de/en/fornasier-massimo) advised by [Giuseppe Savaré](https://faculty.unibocconi.eu/giuseppesavare/). Previously, I completed my bachelor and master studies at [Politecnico di Milano](https://www.polimi.it/en/), under the supervision of [Sandro Salsa](https://www.polimi.it/en/il-politecnico/storia-dellateneo/professors-emeriti-and-honorary/sandro-salsa) and [Luigi Ambrosio](https://www.sns.it/en/persona/luigi-ambrosio).
+Until September 20222, I was a PhD student under the supervision of [Giuseppe Savaré](https://faculty.unibocconi.eu/giuseppesavare/) at [TU Munich](https://www.tum.de/en/) in the group of [Massimo Fornasier](https://www.professoren.tum.de/en/fornasier-massimo). Previously, I completed my bachelor and master studies at [Politecnico di Milano](https://www.polimi.it/en/), advised by [Sandro Salsa](https://www.polimi.it/en/il-politecnico/storia-dellateneo/professors-emeriti-and-honorary/sandro-salsa) and [Luigi Ambrosio](https://www.sns.it/en/persona/luigi-ambrosio).
 
 You can download my cv [here](assets/pdf/civi.pdf).

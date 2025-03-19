@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: these are the courses I taught.
+title: Teaching
+description: These are the courses I taught.
 nav: true
 nav_order: 8
+nav_title: "teaching"
 ---
 ### Lecturer
 - **University of Vienna**: Topics in the Calculus of Variations (SoSe 2025)
@@ -15,9 +16,8 @@ nav_order: 8
 
 - **University of Vienna**: 
   - Analysis 3 (SoSe 2025)
-  - Topologie und Funktionalanalysis (WiSe 2024-2025)
+  - Topologie und Funktionalanalysis (WiSe 2024-2025, WiSe 2023-2024)
   - Analysis 2 (SoSe 2024)
-  - Topologie und Funktionalanalysis (WiSe 2023-2024)
 
 - **Bocconi University**: 
   - Mathematical Analysis - Module 1 (2024-2025, 2023-2024, 2022-2023, 2021-2022, 2020-2021)

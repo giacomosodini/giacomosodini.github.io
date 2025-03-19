@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: publications by categories in reversed chronological order.
+title: "Publications"
+description: Here you can find a list of my publications.
 nav: true
+nav_title: "publications"
 nav_order: 2
 ---
 

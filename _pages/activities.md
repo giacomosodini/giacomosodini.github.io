@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /activities/
-title: talks
+title: Talks
 description: This is a list of selected talks I gave.
 nav: true
 nav_order: 7
+nav_title: "talks"
 ---
 
 - **11.2024** - *"Math department seminar"* - University of Jyväskylä, Jyväskylä
