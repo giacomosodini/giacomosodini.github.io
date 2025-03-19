@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: Giacomo Enrico Sodini academic website.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -282,6 +282,7 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [ smallcaps, superscript]
+  relative: "/publications/"
 
   replace_strings: true
   join_strings: true
