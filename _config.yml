@@ -293,7 +293,8 @@ scholar:
   group_by: type
   sort_by: year
   order: descending
-  group_order: ["preprint", "article"]
+  type_order: [preprint, article]
+  type_names: { preprint: Preprints }
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
