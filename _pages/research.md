@@ -12,5 +12,5 @@ My main research interests are **Optimal Transport** theory and its applications
 
 
 <div style="text-align: center;">
-    <img src="/assets/img/OT_t.svg" />
+    <img src="/assets/img/OT_t.svg" style="max-width: 100%; height: auto;" />
 </div>
