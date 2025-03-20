@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office 04.126</p>
-    <p>Universität Wien - Fakultät für Mathematik </p>
+    <p>Fakultät für Mathematik - Universität Wien</p>
     <p>Oskar-Morgenstern-Platz 1</p>
     <p>1090, Wien, Austria</p>
 
@@ -32,4 +32,4 @@ Welcome! I am a mathematician working on Optimal Transport, Non-Smooth Analysis,
 
 Until September 20222, I was a PhD student under the supervision of [Giuseppe Savaré](https://faculty.unibocconi.eu/giuseppesavare/) at [TU Munich](https://www.tum.de/en/) in the group of [Massimo Fornasier](https://www.professoren.tum.de/en/fornasier-massimo). Previously, I completed my bachelor and master studies at [Politecnico di Milano](https://www.polimi.it/en/), advised by [Sandro Salsa](https://www.polimi.it/en/il-politecnico/storia-dellateneo/professors-emeriti-and-honorary/sandro-salsa) and [Luigi Ambrosio](https://www.sns.it/en/persona/luigi-ambrosio).
 
-You can download my cv [here](assets/pdf/civi.pdf).
+My CV can be downloaded [here](assets/pdf/civi.pdf).
