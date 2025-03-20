@@ -294,7 +294,7 @@ scholar:
   group_by: type
   sort_by: year
   order: descending
-  type_order: [preprint, article]
+  type_order: [preprint, article, book, phdthesis]
   type_names: { preprint: Preprints }
 
 # Display different badges withs stats for your publications
