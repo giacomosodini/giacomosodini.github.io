@@ -292,7 +292,7 @@ scholar:
 
   query: "@*"
   group_by: type
-  sort_by: year
+  sort_by: order
   order: descending
   type_order: [preprint, article, book, phdthesis]
   type_names: { preprint: Preprints }
@@ -330,6 +330,8 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    order,
+    listing
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

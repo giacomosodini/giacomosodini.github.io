@@ -25,6 +25,19 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      <div style="text-align: right; width: 100%;">
+  {%- if entry.listing -%}
+    {%- if site.data.venues[entry.listing] -%}
+      {% if site.data.venues[entry.listing].url %}
+        <a href="{{ site.data.venues[entry.listing].url }}">{{ entry.listing }}</a>
+      {% else %}
+        <span>{{ entry.listing }}</span>
+      {% endif %}
+    {%- else -%}
+      <span>{{ entry.listing }}</span>
+    {%- endif -%}
+  {%- endif -%}
+</div>
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
