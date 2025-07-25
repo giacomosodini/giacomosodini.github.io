@@ -8,7 +8,8 @@ nav_order: 8
 nav_title: "teaching"
 ---
 ### Lecturer
-- **University of Vienna**: Topics in the Calculus of Variations (SoSe 2025)
+- **University of Vienna**: 
+  - Topics in the Calculus of Variations (SoSe 2025)
 
 ---
 
