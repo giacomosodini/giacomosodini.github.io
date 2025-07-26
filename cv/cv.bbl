@@ -1,0 +1,718 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{order/global//global/global}
+    \entry{CavagnariSavareSodini25_b}{preprint}{}
+      \name{author}{3}{}{%
+        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
+           family={Cavagnari},
+           familyi={C\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \field{extraname}{1}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the convergence of stochastic time-discretization schemes for evolution equations driven by random velocity fields, including examples like stochastic gradient descent and interacting particle systems. Using a unified framework based on Multivalued Probability Vector Fields, we analyze these dynamics at the level of probability measures in the Wasserstein space. Under suitable dissipativity and boundedness conditions, we prove that the laws of the interpolated trajectories converge to those of a limiting evolution governed by a maximal dissipative extension of the associated barycentric field. This provides a general measure-theoretic study for the convergence of stochastic schemes in continuous time.}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{Stochastic Euler Schemes and Dissipative Evolutions in the Space of Probability Measures}
+      \field{usera}{[14]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2505.20801
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.20801
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.20801
+      \endverb
+    \endentry
+    \entry{Aubin-FrankowskiSodiniStefanelli25}{preprint}{}
+      \name{author}{3}{}{%
+        {{hash=8c95f8d8db478d4478d3ba540ca9965c}{%
+           family={Aubin-Frankowski},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Pierre-Cyril},
+           giveni={P\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fd2675cf6df143fc4754c08408d7e227}{%
+           family={Stefanelli},
+           familyi={S\bibinitperiod},
+           given={Ulisse},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{fullhash}{e42c010ba366922fb0a21098bac405da}
+      \strng{bibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorbibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authornamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorfullhash}{e42c010ba366922fb0a21098bac405da}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We extend the theory of gradient flows beyond metric spaces by studying evolution variational inequalities (EVIs) driven by general cost functions $c$, including Bregman and entropic transport divergences. We establish several properties of the resulting flows, including stability and energy identities. Using novel notions of convexity related to costs $c$, we prove that EVI flows are the limit of splitting schemes, providing assumptions for both implicit and explicit iterations.}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{Evolution variational inequalities with general costs}
+      \field{usera}{[13]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2505.00559
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.00559
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.00559
+      \endverb
+    \endentry
+    \entry{PasqualettoSodini25}{preprint}{}
+      \name{author}{2}{}{%
+        {{hash=1807c064e07b1d637775bc8311f6767f}{%
+           family={Pasqualetto},
+           familyi={P\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{fullhash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{bibnamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authorbibnamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authornamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authorfullhash}{c4995ace72a0055ef5528614e520bdfa}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given a unital algebra $\mathscr A$ of locally Lipschitz functions defined over a metric measure space $({\mathrm X},{\mathsf d},\mathfrak m)$, we study two associated notions of function of bounded variation and their relations: the space ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$, obtained by approximating in energy with elements of $\mathscr A$, and the space ${\mathrm BV}_{\mathrm W}({\mathrm X};\mathscr A)$, defined through an integration-by-parts formula that involves derivations acting in duality with $\mathscr A$. Our main result provides a sufficient condition on the algebra $\mathscr A$ under which ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$ coincides with the standard metric BV space ${\mathrm BV}_{\mathrm H}({\mathrm X})$, which corresponds to taking as $\mathscr A$ the collection of all locally Lipschitz functions. Our result applies to several cases of interest, for example to Euclidean spaces and Riemannian manifolds equipped with the algebra of smooth functions, or to Banach and Wasserstein spaces equipped with the algebra of cylinder functions. Analogous results for metric Sobolev spaces ${\mathrm H}^{1,p}$ of exponent $p\in(1,\infty)$ were previously obtained by several different authors.}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{Functions of bounded variation and Lipschitz algebras in metric measure spaces}
+      \field{usera}{[12]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2503.21664
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.21664
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.21664
+      \endverb
+    \endentry
+    \entry{DePontiSodiniTamanini25}{preprint}{}
+      \name{author}{3}{}{%
+        {{hash=1fdbebf78dc0b2127f0f531b0a20c1b4}{%
+           family={De\bibnamedelima Ponti},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Nicolò},
+           giveni={N\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a488583db49073f86bf1a9e259fbf261}{%
+           family={Tamanini},
+           familyi={T\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a927bd67f21e963bcf42fe36b721111}
+      \strng{fullhash}{8a927bd67f21e963bcf42fe36b721111}
+      \strng{bibnamehash}{8a927bd67f21e963bcf42fe36b721111}
+      \strng{authorbibnamehash}{8a927bd67f21e963bcf42fe36b721111}
+      \strng{authornamehash}{8a927bd67f21e963bcf42fe36b721111}
+      \strng{authorfullhash}{8a927bd67f21e963bcf42fe36b721111}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that the Hellinger–Kantorovich distance can be expressed as the metric infimal convolution of the Hellinger and the Wasserstein distances, as conjectured by Liero, Mielke, and Savaré. To prove it, we study with the tools of Unbalanced Optimal Transport the so called Marginal Entropy-Transport problem that arises as a single minimization step in the definition of infimal convolution. Careful estimates and results when the number of minimization steps diverges are also provided, both in the specific case of the Hellinger–Kantorovich setting and in the general one of abstract distances.}
+      \field{eprintclass}{math.MG}
+      \field{eprinttype}{arXiv}
+      \field{title}{The infimal convolution structure of the Hellinger-Kantorovich distance}
+      \field{usera}{[11]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2503.12939
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.12939
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.12939
+      \endverb
+    \endentry
+    \entry{DelloSchiavoSodini25}{preprint}{}
+      \name{author}{2}{}{%
+        {{hash=c213131f81c273b5cce7f873071cbc28}{%
+           family={Dello\bibnamedelima Schiavo},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2372e650c565405e4619b5d17b7246}
+      \strng{fullhash}{6a2372e650c565405e4619b5d17b7246}
+      \strng{bibnamehash}{6a2372e650c565405e4619b5d17b7246}
+      \strng{authorbibnamehash}{6a2372e650c565405e4619b5d17b7246}
+      \strng{authornamehash}{6a2372e650c565405e4619b5d17b7246}
+      \strng{authorfullhash}{6a2372e650c565405e4619b5d17b7246}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Let \((M,g)\) be a Riemannian manifold with Riemannian distance \(\mathsf{d}_g\), and \(\mathcal{M}(M)\) be the space of all non-negative Borel measures on \(M\), endowed with the Hellinger-Kantorovich distance \(\mathsf{H\! K}_{\mathsf{d}_g}\) induced by \(\mathsf{d}_g\). Firstly, we prove that \(\left(\mathcal{M}(M),\mathsf{H\! K}_{\mathsf{d}_g}\right)\) is a universally infinitesimally Hilbertian metric space, and that a natural class of cylinder functions is dense in energy in the Sobolev space of every finite Borel measure on \(\mathcal{M}(M)\). Secondly, we endow \(\mathcal{M}(M)\) with its canonical reference measure, namely A.M. Vershik's multiplicative infinite-dimensional Lebesgue measure \(\mathcal{L}_\theta\), \(\theta>0\), and we consider: (a) the geometric structure on \(\mathcal{M}(M)\) induced by the natural action on \(\mathcal{M}(M)\) of the semi-direct product of diffeomorphisms and densities on \(M\), under which \(\mathcal{L}_\theta\) is the unique invariant measure; and (b) the metric measure structure of \(\left(\mathcal{M}(M),\mathsf{H\! K}_{\mathsf{d}_g},\mathcal{L}_{\theta}\right)\), inherited from that of \((M,\mathsf{d}_g,\mathrm{vol}_g)\). We identify the canonical Dirichlet form \(\left(\mathcal{E},\mathscr{D}(\mathcal{E})\right)\) of (a) with the Cheeger energy of (b), thus proving that these two structures coincide. We further prove that \(\left(\mathcal{E},\mathscr{D}(\mathcal{E})\right)\) is a conservative quasi-regular strongly local Dirichlet form on \(\mathcal{M}(M)\), recurrent if and only if \(\theta\in (0,1]\), and properly associated with the Brownian motion of the Hellinger-Kantorovich geometry on \(\mathcal{M}(M)\).}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Hellinger-Kantorovich metric measure geometry on spaces of measures}
+      \field{usera}{[10]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2503.07802
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.07802
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.07802
+      \endverb
+    \endentry
+    \entry{CavagnariSavareSodini23_b}{preprint}{}
+      \name{author}{3}{}{%
+        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
+           family={Cavagnari},
+           familyi={C\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \field{extraname}{2}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce and study the class of totally dissipative multivalued probability vector fields (MPVF) \( \boldsymbol{\mathrm F} \) on the Wasserstein space \( \mathcal{P}_2(\mathsf{X}),W_2)\) of Euclidean or Hilbertian probability measures. We show that such class of MPVFs is in one to one correspondence with law-invariant dissipative operators in a Hilbert space \( L^2(\Omega,\mathcal{B},\mathbb{P};\mathsf{X}) \) of random variables, preserving a natural maximality property. This allows us to import in the Wasserstein framework many of the powerful tools from the theory of maximal dissipative operators in Hilbert spaces, deriving existence, uniqueness, stability, and approximation results for the flow generated by a maximal totally dissipative MPVF and the equivalence of its Eulerian and Lagrangian characterizations. We will show that demicontinuous single-valued probability vector fields satisfying a metric dissipativity condition as in our previous work are in fact totally dissipative. Starting from a sufficiently rich set of discrete measures, we will also show how to recover a unique maximal totally dissipative version of a MPVF, proving that its flow provides a general mean field characterization of the asymptotic limits of the corresponding family of discrete particle systems. Such an approach also reveals new interesting structural properties for gradient flows of displacement convex functionals with a core of discrete measures dense in energy.}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Lagrangian approach to totally dissipative evolutions in Wasserstein spaces}
+      \field{usera}{[9]}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2305.05211
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2305.05211
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2305.05211
+      \endverb
+    \endentry
+    \entry{FornasierHeidSodini25}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b737c1799562207b8bafaabddf3e8d01}{%
+           family={Fornasier},
+           familyi={F\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8283fac1a98a8e9a337bd52cbedc5158}{%
+           family={Heid},
+           familyi={H\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \strng{fullhash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \strng{bibnamehash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \strng{authorbibnamehash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \strng{authornamehash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \strng{authorfullhash}{0fcb538b9aa8bc0ac8d3f6c172d25ebc}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The challenge of approximating functions in infinite-dimensional spaces from finite samples is widely regarded as formidable. In this study, we delve into the challenging problem of the numerical approximation of Sobolev-smooth functions defined on probability spaces. Our particular focus centers on the Wasserstein distance function, which serves as a relevant example. In contrast to the existing body of literature focused on approximating efficiently pointwise evaluations, we chart a new course to define functional approximants by adopting three machine learning-based approaches: 1. Solving a finite number of optimal transport problems and computing the corresponding Wasserstein potentials. 2. Employing empirical risk minimization with Tikhonov regularization in Wasserstein Sobolev spaces. 3. Addressing the problem through the saddle point formulation that characterizes the weak form of the Tikhonov functional's Euler-Lagrange equation. As a theoretical contribution, we furnish explicit and quantitative bounds on generalization errors for each of these solutions. In the proofs, we leverage the theory of metric Sobolev spaces and we combine it with techniques of optimal transport, variational calculus, and large deviation bounds. In our numerical implementation, we harness appropriately designed neural networks to serve as basis functions. These networks undergo training using diverse methodologies. This approach allows us to obtain approximating functions that can be rapidly evaluated after training. Consequently, our constructive solutions significantly enhance at equal accuracy the evaluation speed, surpassing that of state-of-the-art methods by several orders of magnitude.}
+      \field{journaltitle}{Mathematical Models and Methods in Applied Sciences}
+      \field{number}{04}
+      \field{title}{Approximation Theory, Computing, and Deep Learning on the Wasserstein Space}
+      \field{usera}{[8]}
+      \field{volume}{35}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{825\bibrangedash 903}
+      \range{pages}{79}
+      \verb{doi}
+      \verb 10.1142/S0218202525500113
+      \endverb
+    \endentry
+    \entry{CavagnariSavareSodini25}{article}{}
+      \name{author}{3}{}{%
+        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
+           family={Cavagnari},
+           familyi={C\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \field{extraname}{3}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study monotone operators in reflexive Banach spaces that are invariant with respect to a group of suitable isometric isomorphisms and we show that they always admit a maximal extension which preserves the same invariance. A similar result applies to Lipschitz maps in Hilbert spaces, thus providing an invariant version of Kirzsbraun-Valentine extension Theorem. We then provide a relevant application to the case of monotone operators in \(L^p\)-spaces of random variables which are invariant with respect to measure-preserving isomorphisms, proving that they always admit maximal dissipative extensions which are still invariant by measure-preserving isomorphisms. We also show that such operators are law invariant, a much stronger property which is also inherited by their resolvents, the Moreau-Yosida approximations, and the associated semigroup of contractions. These results combine explicit representation formulae for the maximal extension of a monotone operator based on selfdual lagrangians and a refined study of measure-preserving maps in standard Borel spaces endowed with a nonatomic measure, with applications to the approximation of arbitrary couplings between measures by sequences of maps.}
+      \field{issn}{0008-414X,1496-4279}
+      \field{journaltitle}{Canad. J. Math.}
+      \field{number}{1}
+      \field{title}{Extension of monotone operators and Lipschitz maps invariant for a group of isometries}
+      \field{usera}{[7]}
+      \field{volume}{77}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{149\bibrangedash 186}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.4153/S0008414X23000846
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4153/S0008414X23000846
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4153/S0008414X23000846
+      \endverb
+    \endentry
+    \entry{SavareSodini24}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{fullhash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{bibnamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authorbibnamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authornamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authorfullhash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \field{extraname}{1}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a general convex relaxation approach to study a wide class of Unbalanced Optimal Transport problems for finite non-negative measures with possibly different masses. These are obtained as the lower semicontinuous and convex envelope of a cost for non-negative Dirac masses. New general primal-dual formulations, optimality conditions, and metric-topological properties are carefully studied and discussed.}
+      \field{issn}{0021-7824,1776-3371}
+      \field{issue}{9}
+      \field{journaltitle}{J. Math. Pures Appl.}
+      \field{title}{A relaxation viewpoint to unbalanced optimal transport: duality, optimality and Monge formulation}
+      \field{usera}{[6]}
+      \field{volume}{188}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{114\bibrangedash 178}
+      \range{pages}{65}
+      \verb{doi}
+      \verb 10.1016/j.matpur.2024.05.009
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.matpur.2024.05.009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.matpur.2024.05.009
+      \endverb
+    \endentry
+    \entry{Sodini23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{fullhash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{bibnamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authorbibnamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authornamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authorfullhash}{64f7a85dee0c4225a0941e2716de394b}
+      \field{extraname}{1}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that the algebra of cylinder functions in the Wasserstein Sobolev space \(H^{1,q}(\mathcal{P}_p(X,\mathsf{d}), W_{p, \mathsf{d}}, \mathfrak{m})\) generated by a finite and positive Borel measure \(\mathfrak{m}\) on the \((p,\mathsf{d})\)-Wasserstein space \((\mathcal{P}_p(X,\mathsf{d}), W_{p, \mathsf{d}})\) on a complete and separable metric space \((X,\mathsf{d})\) is dense in energy. As an application, we prove that, in case the underlying metric space is a separable Banach space \(\mathbb{B}\), then the Wasserstein Sobolev space is reflexive (resp. uniformly convex) if \(\mathbb{B}\) is reflexive (resp. if the dual of \(\mathbb{B}\) is uniformly convex). Finally, we also provide sufficient conditions for the validity of Clarkson's type inequalities in the Wasserstein Sobolev space.}
+      \field{issn}{0944-2669,1432-0835}
+      \field{journaltitle}{Calc. Var. Partial Differential Equations}
+      \field{number}{7}
+      \field{title}{The general class of Wasserstein Sobolev spaces: density of cylinder functions, reflexivity, uniform convexity and Clarkson's inequalities}
+      \field{usera}{[5]}
+      \field{volume}{62}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{Paper No. 212\bibrangessep 41}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1007/s00526-023-02543-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00526-023-02543-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00526-023-02543-1
+      \endverb
+    \endentry
+    \entry{FornasierSavareSodini23}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b737c1799562207b8bafaabddf3e8d01}{%
+           family={Fornasier},
+           familyi={F\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5672e6496166b62c7432e0c9bd4efebe}
+      \strng{fullhash}{5672e6496166b62c7432e0c9bd4efebe}
+      \strng{bibnamehash}{5672e6496166b62c7432e0c9bd4efebe}
+      \strng{authorbibnamehash}{5672e6496166b62c7432e0c9bd4efebe}
+      \strng{authornamehash}{5672e6496166b62c7432e0c9bd4efebe}
+      \strng{authorfullhash}{5672e6496166b62c7432e0c9bd4efebe}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We prove a general criterion for the density in energy of suitable subalgebras of Lipschitz functions in the metric-Sobolev space \(H^{1,p}(X,\mathsf{d},\mathfrak{m})\) associated with a positive and finite Borel measure \(\mathfrak{m}\) in a separable and complete metric space \((X,\mathsf{d})\). We then provide a relevant application to the case of the algebra of cylinder functions in the Wasserstein Sobolev space \(H^{1,2}(\mathcal{P}_2(\mathbb{M}),W_{2},\mathfrak{m})\) arising from a positive and finite Borel measure \(\mathfrak{m}\) on the Kantorovich-Rubinstein-Wasserstein space \((\mathcal{P}_2(\mathbb{M}),W_{2})\) of probability measures in a finite dimensional Euclidean space, a complete Riemannian manifold, or a separable Hilbert space \(\mathbb{M}\). We will show that such a Sobolev space is always Hilbertian, independently of the choice of the reference measure \(\mathfrak{m}\) so that the resulting Cheeger energy is a Dirichlet form. We will eventually provide an explicit characterization for the corresponding notion of \(\mathfrak{m}\)-Wasserstein gradient, showing useful calculus rules and its consistency with the tangent bundle and the \(\Gamma\)-calculus inherited from the Dirichlet form.}
+      \field{issn}{0022-1236,1096-0783}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{11}
+      \field{title}{Density of subalgebras of Lipschitz functions in metric Sobolev spaces and applications to Wasserstein Sobolev spaces}
+      \field{usera}{[4]}
+      \field{volume}{285}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{Paper No. 110153\bibrangessep 76}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jfa.2023.110153
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jfa.2023.110153
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jfa.2023.110153
+      \endverb
+    \endentry
+    \entry{CavagnariSavareSodini23}{article}{}
+      \name{author}{3}{}{%
+        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
+           family={Cavagnari},
+           familyi={C\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \field{extraname}{4}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce and investigate a notion of multivalued \(\lambda \)-dissipative probability vector field (MPVF) in the Wasserstein space \( \mathcal{P}_2(\mathsf{X})\) of Borel probability measures on a Hilbert space \( \mathsf{X}\). Taking inspiration from the theories of dissipative operators in Hilbert spaces and of Wasserstein gradient flows for geodesically convex functionals, we study local and global well posedness of evolution equations driven by dissipative MPVFs. Our approach is based on a measure-theoretic version of the Explicit Euler scheme, for which we prove novel convergence results with optimal error estimates under an abstract stability condition, which do not rely on compactness arguments and also hold when \(\mathsf{X}\) has infinite dimension. We characterize the limit solutions by a suitable Evolution Variational Inequality (EVI), inspired by the Bénilan notion of integral solutions to dissipative evolutions in Banach spaces. Existence, uniqueness and stability of EVI solutions are then obtained under quite general assumptions, leading to the generation of a semigroup of nonlinear contractions.}
+      \field{issn}{0178-8051,1432-2064}
+      \field{journaltitle}{Probab. Theory Related Fields}
+      \field{number}{3-4}
+      \field{title}{Dissipative probability vector fields and generation of evolution semigroups in Wasserstein spaces}
+      \field{usera}{[3]}
+      \field{volume}{185}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1087\bibrangedash 1182}
+      \range{pages}{96}
+      \verb{doi}
+      \verb 10.1007/s00440-022-01148-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00440-022-01148-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00440-022-01148-7
+      \endverb
+    \endentry
+    \entry{SavareSodini22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{fullhash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{bibnamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authorbibnamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authornamehash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \strng{authorfullhash}{9b02f8c2f89a97d27c9ed476bbe5ba2e}
+      \field{extraname}{2}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a simple and direct approach to duality for Optimal Transport for lower semicontinuous cost functionals in arbitrary completely regular topological spaces, showing that the Optimal Transport functional can be interpreted as the largest sublinear and weakly lower semicontinuous functional extending the cost between pairs of Dirac masses.}
+      \field{issn}{0944-6532,2363-6394}
+      \field{journaltitle}{J. Convex Anal.}
+      \field{number}{1}
+      \field{title}{A simple relaxation approach to duality for optimal transport problems in completely regular spaces}
+      \field{usera}{[2]}
+      \field{volume}{29}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+    \endentry
+    \entry{MartiniSodini21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=451ec3cd4ba6964b7d2329c0011a3913}{%
+           family={Martini},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \strng{fullhash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \strng{bibnamehash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \strng{authorbibnamehash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \strng{authornamehash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \strng{authorfullhash}{3ca659c58cd34f2e1a2e3149b062473d}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, we consider a system of coupled Cahn-Hilliard equations describing the phase separation of a copolymer and a homopolymer blend. We propose some numerical methods to approximate the solution of the system which are based on suitable combinations of existing schemes for the single Cahn-Hilliard equation. As a verification for our experimental approach, we present some tests and a detailed description of the numerical solutions’ behaviour obtained by varying the values of the system’s characteristic parameters.}
+      \field{issn}{2038-0909}
+      \field{journaltitle}{Commun. Appl. Ind. Math.}
+      \field{number}{1}
+      \field{title}{Numerical methods for a system of coupled Cahn-Hilliard equations}
+      \field{usera}{[1]}
+      \field{volume}{12}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.2478/caim-2021-0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2478/caim-2021-0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2478/caim-2021-0001
+      \endverb
+    \endentry
+    \entry{DAmicoDeTullioOsimoSodini21}{book}{}
+      \name{author}{4}{}{%
+        {{hash=b79599348f481c70eb0d860f46fb9e69}{%
+           family={D’Amico},
+           familyi={D\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6623e95d621e5e7c0a348b6f2d62b831}{%
+           family={Tullio},
+           familyi={T\bibinitperiod},
+           given={Jacopo\bibnamedelima De},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=67a5536819a87f5b0d7669226221f65a}{%
+           family={Osimo},
+           familyi={O\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Università Bocconi, EGEA}%
+      }
+      \strng{namehash}{4e7c644952135def3043ebbd1ecccf70}
+      \strng{fullhash}{67964ec22c1ea635cdd75dbabbb50621}
+      \strng{bibnamehash}{4e7c644952135def3043ebbd1ecccf70}
+      \strng{authorbibnamehash}{4e7c644952135def3043ebbd1ecccf70}
+      \strng{authornamehash}{4e7c644952135def3043ebbd1ecccf70}
+      \strng{authorfullhash}{67964ec22c1ea635cdd75dbabbb50621}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A collection of exercises for the "Mathematical Analysis-Module 1" course at Bocconi's Bachelor in Artificial Intelligence.}
+      \field{series}{BAI Series}
+      \field{title}{Mathematical Analysis - Module 1 Exercises}
+      \field{usera}{[B1]}
+      \field{volume}{1}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{Sodini22}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität München}%
+      }
+      \strng{namehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{fullhash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{bibnamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authorbibnamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authornamehash}{64f7a85dee0c4225a0941e2716de394b}
+      \strng{authorfullhash}{64f7a85dee0c4225a0941e2716de394b}
+      \field{extraname}{2}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this thesis, we treat different aspects of the Optimal Transport theory. Firstly, we present a new class of Optimal Transport costs for non-negative measures with possibly different masses obtained by a convex relaxation procedure of a cost for non-negative Dirac measures. Secondly, we introduce and investigate a notion of multivalued dissipative operator in the 2-Wasserstein space on a separable Hilbert space. Finally, we prove a general criterium for the density of sub-algebras of Lipschitz functions in metric-Sobolev spaces and we apply this result to the 2-Wasserstein space.}
+      \field{title}{Optimal Transport: unbalanced positive measures, dissipative evolutions and Sobolev spaces}
+      \field{type}{phdthesis}
+      \field{usera}{[T1]}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{296}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
