@@ -32,4 +32,4 @@ Welcome! I am a mathematician working on Optimal Transport, Non-Smooth Analysis,
 
 Until September 2022, I was a PhD student under the supervision of [Giuseppe Savaré](https://faculty.unibocconi.eu/giuseppesavare/) at [TU Munich](https://www.tum.de/en/) in the group of [Massimo Fornasier](https://www.professoren.tum.de/en/fornasier-massimo). Previously, I completed my bachelor and master studies at [Politecnico di Milano](https://www.polimi.it/en/), advised by [Sandro Salsa](https://www.polimi.it/en/il-politecnico/storia-dellateneo/professors-emeriti-and-honorary/sandro-salsa) and [Luigi Ambrosio](https://www.sns.it/en/persona/luigi-ambrosio).
 
-My CV can be downloaded [here](cv/ecv.pdf).
+My CV can be downloaded [here](cv/cv.pdf).
