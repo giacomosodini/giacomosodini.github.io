@@ -79,7 +79,7 @@
       <file>cv.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/Users/giacomo/Documents/Lavoro/Website/giacomosodini.github.io/_bibliography/papers.bib</file>
+      <file>../_bibliography/papers.bib</file>
     </requires>
   </external>
 </requests>
