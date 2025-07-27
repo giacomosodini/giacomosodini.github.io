@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'cv.blg'
-[29] biber-darwin:315> INFO - === Sun Jul 27, 2025, 11:18:32
-[46] Biber.pm:371> INFO - Reading 'cv.bcf'
-[101] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[111] Biber.pm:4093> INFO - Processing section 0
-[120] Biber.pm:4254> INFO - Looking for bibtex format file '../_bibliography/papers.bib' for section 0
-[126] bibtex.pm:1523> INFO - LaTeX decoding ...
-[164] bibtex.pm:1340> INFO - Found BibTeX data source '../_bibliography/papers.bib'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[227] Biber.pm:3921> INFO - Sorting list 'order/global//global/global' of type 'entry' with template 'order' and locale 'en-US'
-[227] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[238] bbl.pm:636> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[243] bbl.pm:739> INFO - Output to cv.bbl
+[35] biber-darwin:315> INFO - === Sun Jul 27, 2025, 11:45:54
+[53] Biber.pm:371> INFO - Reading 'cv.bcf'
+[108] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[118] Biber.pm:4093> INFO - Processing section 0
+[127] Biber.pm:4254> INFO - Looking for bibtex format file '../_bibliography/papers.bib' for section 0
+[130] bibtex.pm:1523> INFO - LaTeX decoding ...
+[169] bibtex.pm:1340> INFO - Found BibTeX data source '../_bibliography/papers.bib'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[232] Biber.pm:3921> INFO - Sorting list 'order/global//global/global' of type 'entry' with template 'order' and locale 'en-US'
+[232] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[243] bbl.pm:636> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[248] bbl.pm:739> INFO - Output to cv.bbl
