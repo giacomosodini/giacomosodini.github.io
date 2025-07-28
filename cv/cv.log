@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.1)  27 JUL 2025 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.1)  28 JUL 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,17 +1678,17 @@ _logo.jpg>])
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 255.
  [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 194846E2CB54A9EDB63B350C6526685B;280.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  )
 (\end occurred when \unless\ifeof on line 255 was incomplete)
 (\end occurred when \unless\ifeof on line 255 was incomplete)
@@ -1716,18 +1716,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
 (\end occurred when \unless\ifeof on line 255 was incomplete)
 (\end occurred when \unless\ifeof on line 255 was incomplete) 
 Here is how much of TeX's memory you used:
- 44358 strings out of 492616
- 875532 string characters out of 6129482
+ 44360 strings out of 492616
+ 875553 string characters out of 6129482
  1298596 words of memory out of 5000000
- 47652 multiletter control sequences out of 15000+600000
- 579035 words of font info for 70 fonts, out of 8000000 for 9000
+ 47653 multiletter control sequences out of 15000+600000
+ 579798 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,101p,1812b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texliv
-e/2019/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texlive/2019/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/f
-onts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/2019/texmf-dist/fon
-ts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2019/texmf-dist/fonts
+e/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/
+2019/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texlive/2019/texm
+f-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fon
+ts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/2019/texmf-dist/fonts
 /enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2019/texmf-dist/fonts/
 enc/dvips/fontawesome5/fa5free0.enc}</usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2019/te
@@ -1739,13 +1739,14 @@ b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on cv.pdf (3 pages, 265519 bytes).
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
+Output written on cv.pdf (3 pages, 279305 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
