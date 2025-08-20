@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{order/global//global/global}
+    \entry{AkagiSodiniStefanelli25}{mpreprint}{}
+      \name{author}{3}{}{%
+        {{hash=511b45d234f9f5f272e11b581b415bfe}{%
+           family={Akagi},
+           familyi={A\bibinitperiod},
+           given={Goro},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fd2675cf6df143fc4754c08408d7e227}{%
+           family={Stefanelli},
+           familyi={S\bibinitperiod},
+           given={Ulisse},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2cbaea7e12024854714657c550b360d}
+      \strng{fullhash}{c2cbaea7e12024854714657c550b360d}
+      \strng{bibnamehash}{c2cbaea7e12024854714657c550b360d}
+      \strng{authorbibnamehash}{c2cbaea7e12024854714657c550b360d}
+      \strng{authornamehash}{c2cbaea7e12024854714657c550b360d}
+      \strng{authorfullhash}{c2cbaea7e12024854714657c550b360d}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider a time-fractional parabolic equation of doubly nonlinear type, featuring nonlinear terms both inside and outside the differential operator in time. The main nonlinearities are maximal monotone graphs, without restrictions on the growth. In addition, a Lipschitz continuous perturbation is considered. The existence of global weak solutions is obtained via a regularization and Galerkin approximation method. Uniqueness is also discussed under some additional assumptions.}
+      \field{eprintclass}{math.AP}
+      \field{eprinttype}{arXiv}
+      \field{title}{Global well-posedness for a time-fractional doubly nonlinear equation}
+      \field{usera}{[15]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2508.13694
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2508.13694
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2508.13694
+      \endverb
+    \endentry
     \entry{CavagnariSavareSodini25_b}{preprint}{}
       \name{author}{3}{}{%
         {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
