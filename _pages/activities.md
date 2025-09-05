@@ -8,6 +8,7 @@ nav_order: 7
 nav_title: "talks"
 ---
 
+- **09.2025** - *"The Annual 2025 ÖMG-DMV Meeting"* - JKU, Linz
 - **04.2025** - *"Seminar on Calculus of Variations"* - University of Vienna, Vienna
 - **01.2025** - *"Dolomites Winter School"* - Folgarida
 - **11.2024** - *"Math department seminar"* - University of Jyväskylä, Jyväskylä
