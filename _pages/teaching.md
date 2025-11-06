@@ -16,6 +16,7 @@ nav_title: "teaching"
 ### Teaching Assistant
 
 - **University of Vienna**: 
+  - Introduction to Analysis (WiSe 2025-2026)
   - Analysis 3 (SoSe 2025)
   - Topologie und Funktionalanalysis (WiSe 2024-2025, WiSe 2023-2024)
   - Analysis 2 (SoSe 2024)

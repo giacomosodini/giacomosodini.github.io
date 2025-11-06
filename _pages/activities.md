@@ -8,6 +8,10 @@ nav_order: 7
 nav_title: "talks"
 ---
 
+- **11.2025** - *"Institut für Statistik seminar"* - TU Graz, Graz
+- **10.2025** - *"AKOR seminar"* - TU Vienna, Vienna
+- **10.2025** - *"Analysis and Applied Mathematics Seminar"* - Bocconi University, Milano
+- **10.2025** - *"Austrian Calculus of Variations day"* - University of Graz, Graz
 - **09.2025** - *"The Annual 2025 ÖMG-DMV Meeting"* - JKU, Linz
 - **04.2025** - *"Seminar on Calculus of Variations"* - University of Vienna, Vienna
 - **01.2025** - *"Dolomites Winter School"* - Folgarida
