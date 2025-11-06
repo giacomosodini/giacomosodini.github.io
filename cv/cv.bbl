@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{order/global//global/global}
+    \entry{DelarueMartiniSodini25}{preprint}{}
+      \name{author}{3}{}{%
+        {{hash=799c6f3ae3f94478b9b2d2aadabd8387}{%
+           family={Delarue},
+           familyi={D\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=451ec3cd4ba6964b7d2329c0011a3913}{%
+           family={Martini},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \strng{fullhash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \strng{bibnamehash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \strng{authorbibnamehash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \strng{authornamehash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \strng{authorfullhash}{f4b5a5d6933506190a8b5ef9abdd08f6}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study linear and nonlinear PDEs defined on the space of $\mathcal{P}(\mathbb{T}^d)$ over the flat torus $\mathbb{T}^d$, equipped with the Dirichlet-Ferguson measure $\mathcal{D}$. We first develop an analytic framework based on the Wasserstein-Sobolev space $H^{1,2}(\mathcal{P}(\mathbb{T}^d), W_2, \mathcal{D})$ associated with the Dirichlet form induced by the infinite-dimensional Laplacian acting on functions of measures. Within this setting, we establish existence and uniqueness results for transport-diffusion and Hamilton-Jacobi equations in the Wasserstein space. Our analysis connects the PDE approach with a corresponding interacting particles system providing a probabilistic (Kolmogorov-type) representation of strong solutions. Finally, we extend the theory to semilinear equations and mean-field optimal control problems, together with consistent finite-dimensional approximations.}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{HJB equations driven by the Dirichlet-Ferguson Laplacian in Wasserstein-Sobolev spaces}
+      \field{usera}{[16]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2511.03522
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2511.03522
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2511.03522
+      \endverb
+    \endentry
     \entry{AkagiSodiniStefanelli25}{preprint}{}
       \name{author}{3}{}{%
         {{hash=511b45d234f9f5f272e11b581b415bfe}{%
