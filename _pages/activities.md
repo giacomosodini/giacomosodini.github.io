@@ -8,6 +8,7 @@ nav_order: 7
 nav_title: "talks"
 ---
 
+- **11.2025** - *"Analysis seminar"* - Federico II University, Naples
 - **11.2025** - *"Institut für Statistik seminar"* - TU Graz, Graz
 - **10.2025** - *"AKOR seminar"* - TU Vienna, Vienna
 - **10.2025** - *"Analysis and Applied Mathematics Seminar"* - Bocconi University, Milano
