@@ -1,15 +1,34 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'cv.blg'
-[25] biber-darwin:315> INFO - === Mon Nov 17, 2025, 10:27:42
-[43] Biber.pm:371> INFO - Reading 'cv.bcf'
-[98] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[108] Biber.pm:4093> INFO - Processing section 0
-[117] Biber.pm:4254> INFO - Looking for bibtex format file '../_bibliography/papers.bib' for section 0
-[120] bibtex.pm:1523> INFO - LaTeX decoding ...
-[161] bibtex.pm:1340> INFO - Found BibTeX data source '../_bibliography/papers.bib'
-[230] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[230] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[230] Biber.pm:3921> INFO - Sorting list 'order/global//global/global' of type 'entry' with template 'order' and locale 'en-US'
-[230] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[241] bbl.pm:636> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[248] bbl.pm:739> INFO - Output to cv.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'cv.blg'
+[21] biber-darwin:340> INFO - === Sat Nov 22, 2025, 16:09:32
+[25] Biber.pm:420> INFO - Reading 'cv.bcf'
+[48] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[53] Biber.pm:4463> INFO - Processing section 0
+[56] Biber.pm:4654> INFO - Looking for bibtex file '../_bibliography/papers.bib' for section 0
+[59] bibtex.pm:1713> INFO - LaTeX decoding ...
+[75] bibtex.pm:1519> INFO - Found BibTeX data source '../_bibliography/papers.bib'
+[121] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[121] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[122] Biber.pm:4283> INFO - Sorting list 'order/global//global/global/global' of type 'entry' with template 'order' and locale 'en-US'
+[122] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[127] bbl.pm:676> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[131] bbl.pm:779> INFO - Output to cv.bbl
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[131] Biber.pm:133> INFO - WARNINGS: 18
