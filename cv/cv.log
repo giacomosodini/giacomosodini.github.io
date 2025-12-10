@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  22 NOV 2025 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  10 DEC 2025 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1393,13 +1393,11 @@ n input line 241.
 
 (./inputs/header.tex
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 File: arxiv_logo.jpg Graphic file (type jpg)
 <use arxiv_logo.jpg>
-Package pdftex.def Info: arxiv_logo.jpg  used on input line 27.
+Package pdftex.def Info: arxiv_logo.jpg  used on input line 25.
 (pdftex.def)             Requested size: 6.86691pt x 9.24774pt.
 )
 
@@ -1483,10 +1481,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
-/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/
-texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/t
-exlive/2025/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texlive/20
-25/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc} <./arxiv_logo.jpg>]
+/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/
+texlive/2025/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texlive/2
+025/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc} <./arxiv_logo.jpg>]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -1574,11 +1571,11 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 (\end occurred when \unless\ifeof on line 255 was incomplete)
 (\end occurred when \unless\ifeof on line 255 was incomplete) 
 Here is how much of TeX's memory you used:
- 40359 strings out of 473190
- 814664 string characters out of 5715799
- 1643099 words of memory out of 5000000
- 62957 multiletter control sequences out of 15000+600000
- 606300 words of font info for 83 fonts, out of 8000000 for 9000
+ 40339 strings out of 473190
+ 814109 string characters out of 5715799
+ 1642099 words of memory out of 5000000
+ 62942 multiletter control sequences out of 15000+600000
+ 605989 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,106p,1819b,1480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texliv
@@ -1596,10 +1593,10 @@ m0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1
 5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pf
 b>
-Output written on cv.pdf (3 pages, 296648 bytes).
+Output written on cv.pdf (3 pages, 292959 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 215 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
