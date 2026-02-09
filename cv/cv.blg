@@ -1,34 +1,34 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'cv.blg'
-[22] biber-darwin:340> INFO - === Wed Dec 10, 2025, 16:06:23
-[28] Biber.pm:420> INFO - Reading 'cv.bcf'
-[50] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[55] Biber.pm:4463> INFO - Processing section 0
-[58] Biber.pm:4654> INFO - Looking for bibtex file '../_bibliography/papers.bib' for section 0
-[60] bibtex.pm:1713> INFO - LaTeX decoding ...
-[76] bibtex.pm:1519> INFO - Found BibTeX data source '../_bibliography/papers.bib'
-[123] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[123] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[123] Biber.pm:4283> INFO - Sorting list 'order/global//global/global/global' of type 'entry' with template 'order' and locale 'en-US'
-[123] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[130] bbl.pm:676> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[133] bbl.pm:779> INFO - Output to cv.bbl
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
-[133] Biber.pm:133> INFO - WARNINGS: 18
+[22] biber-darwin:340> INFO - === Mon Feb  9, 2026, 09:41:17
+[27] Biber.pm:420> INFO - Reading 'cv.bcf'
+[49] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[54] Biber.pm:4463> INFO - Processing section 0
+[57] Biber.pm:4654> INFO - Looking for bibtex file '../_bibliography/papers.bib' for section 0
+[58] bibtex.pm:1713> INFO - LaTeX decoding ...
+[74] bibtex.pm:1519> INFO - Found BibTeX data source '../_bibliography/papers.bib'
+[120] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[120] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[120] Biber.pm:4283> INFO - Sorting list 'order/global//global/global/global' of type 'entry' with template 'order' and locale 'en-US'
+[120] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[125] bbl.pm:676> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[129] bbl.pm:779> INFO - Output to cv.bbl
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[129] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:131> WARN - Field 'order' in sorting template is not a sortable field
+[130] Biber.pm:133> INFO - WARNINGS: 18
