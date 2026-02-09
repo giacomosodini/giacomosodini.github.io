@@ -200,46 +200,6 @@
       \verb https://arxiv.org/abs/2505.00559
       \endverb
     \endentry
-    \entry{PasqualettoSodini25}{preprint}{}{}
-      \name{author}{2}{}{%
-        {{hash=1807c064e07b1d637775bc8311f6767f}{%
-           family={Pasqualetto},
-           familyi={P\bibinitperiod},
-           given={Enrico},
-           giveni={E\bibinitperiod}}}%
-        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
-           family={Sodini},
-           familyi={S\bibinitperiod},
-           given={Giacomo\bibnamedelima Enrico},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{fullhash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{fullhashraw}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{bibnamehash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{authorbibnamehash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{authornamehash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{authorfullhash}{c4995ace72a0055ef5528614e520bdfa}
-      \strng{authorfullhashraw}{c4995ace72a0055ef5528614e520bdfa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Given a unital algebra $\mathscr A$ of locally Lipschitz functions defined over a metric measure space $({\mathrm X},{\mathsf d},\mathfrak m)$, we study two associated notions of function of bounded variation and their relations: the space ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$, obtained by approximating in energy with elements of $\mathscr A$, and the space ${\mathrm BV}_{\mathrm W}({\mathrm X};\mathscr A)$, defined through an integration-by-parts formula that involves derivations acting in duality with $\mathscr A$. Our main result provides a sufficient condition on the algebra $\mathscr A$ under which ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$ coincides with the standard metric BV space ${\mathrm BV}_{\mathrm H}({\mathrm X})$, which corresponds to taking as $\mathscr A$ the collection of all locally Lipschitz functions. Our result applies to several cases of interest, for example to Euclidean spaces and Riemannian manifolds equipped with the algebra of smooth functions, or to Banach and Wasserstein spaces equipped with the algebra of cylinder functions. Analogous results for metric Sobolev spaces ${\mathrm H}^{1,p}$ of exponent $p\in(1,\infty)$ were previously obtained by several different authors.}
-      \field{eprintclass}{math.FA}
-      \field{eprinttype}{arXiv}
-      \field{title}{Functions of bounded variation and Lipschitz algebras in metric measure spaces}
-      \field{usera}{[12]}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2503.21664
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2503.21664
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2503.21664
-      \endverb
-    \endentry
     \entry{DePontiSodiniTamanini25}{preprint}{}{}
       \name{author}{3}{}{%
         {{hash=1fdbebf78dc0b2127f0f531b0a20c1b4}{%
@@ -272,7 +232,7 @@
       \field{eprintclass}{math.MG}
       \field{eprinttype}{arXiv}
       \field{title}{The infimal convolution structure of the Hellinger-Kantorovich distance}
-      \field{usera}{[11]}
+      \field{usera}{[12]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -312,7 +272,7 @@
       \field{eprintclass}{math.FA}
       \field{eprinttype}{arXiv}
       \field{title}{The Hellinger-Kantorovich metric measure geometry on spaces of measures}
-      \field{usera}{[10]}
+      \field{usera}{[11]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -358,7 +318,7 @@
       \field{eprintclass}{math.FA}
       \field{eprinttype}{arXiv}
       \field{title}{A Lagrangian approach to totally dissipative evolutions in Wasserstein spaces}
-      \field{usera}{[9]}
+      \field{usera}{[10]}
       \field{year}{2023}
       \true{nocite}
       \verb{eprint}
@@ -369,6 +329,46 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2305.05211
+      \endverb
+    \endentry
+    \entry{PasqualettoSodini25}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1807c064e07b1d637775bc8311f6767f}{%
+           family={Pasqualetto},
+           familyi={P\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{fullhash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{fullhashraw}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{bibnamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authorbibnamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authornamehash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authorfullhash}{c4995ace72a0055ef5528614e520bdfa}
+      \strng{authorfullhashraw}{c4995ace72a0055ef5528614e520bdfa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given a unital algebra $\mathscr A$ of locally Lipschitz functions defined over a metric measure space $({\mathrm X},{\mathsf d},\mathfrak m)$, we study two associated notions of function of bounded variation and their relations: the space ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$, obtained by approximating in energy with elements of $\mathscr A$, and the space ${\mathrm BV}_{\mathrm W}({\mathrm X};\mathscr A)$, defined through an integration-by-parts formula that involves derivations acting in duality with $\mathscr A$. Our main result provides a sufficient condition on the algebra $\mathscr A$ under which ${\mathrm BV}_{\mathrm H}({\mathrm X};\mathscr A)$ coincides with the standard metric BV space ${\mathrm BV}_{\mathrm H}({\mathrm X})$, which corresponds to taking as $\mathscr A$ the collection of all locally Lipschitz functions. Our result applies to several cases of interest, for example to Euclidean spaces and Riemannian manifolds equipped with the algebra of smooth functions, or to Banach and Wasserstein spaces equipped with the algebra of cylinder functions. Analogous results for metric Sobolev spaces ${\mathrm H}^{1,p}$ of exponent $p\in(1,\infty)$ were previously obtained by several different authors.}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Accepted for publication in ESAIM: COCV}
+      \field{title}{Functions of bounded variation and Lipschitz algebras in metric measure spaces}
+      \field{usera}{[9]}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2503.21664
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.21664
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.21664
       \endverb
     \endentry
     \entry{FornasierHeidSodini25}{article}{}{}
