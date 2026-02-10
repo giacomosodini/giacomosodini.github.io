@@ -8,11 +8,12 @@ nav_order: 8
 nav_title: "teaching"
 ---
 ### Lecturer
+- **TU Wien**: 
+  - Introduction to Optimal Transport (SoSe 2026)
+
 - **University of Vienna**: 
   - Topics in the Calculus of Variations (SoSe 2025)
 
-- **TU Wien**: 
-  - Introduction to Optimal Transport (SoSe 2026)
 
 ---
 
