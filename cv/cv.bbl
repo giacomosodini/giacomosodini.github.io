@@ -155,51 +155,6 @@
       \verb https://arxiv.org/abs/2505.20801
       \endverb
     \endentry
-    \entry{Aubin-FrankowskiSodiniStefanelli25}{preprint}{}{}
-      \name{author}{3}{}{%
-        {{hash=8c95f8d8db478d4478d3ba540ca9965c}{%
-           family={Aubin-Frankowski},
-           familyi={A\bibinithyphendelim F\bibinitperiod},
-           given={Pierre-Cyril},
-           giveni={P\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
-           family={Sodini},
-           familyi={S\bibinitperiod},
-           given={Giacomo\bibnamedelima Enrico},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=fd2675cf6df143fc4754c08408d7e227}{%
-           family={Stefanelli},
-           familyi={S\bibinitperiod},
-           given={Ulisse},
-           giveni={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{e42c010ba366922fb0a21098bac405da}
-      \strng{fullhash}{e42c010ba366922fb0a21098bac405da}
-      \strng{fullhashraw}{e42c010ba366922fb0a21098bac405da}
-      \strng{bibnamehash}{e42c010ba366922fb0a21098bac405da}
-      \strng{authorbibnamehash}{e42c010ba366922fb0a21098bac405da}
-      \strng{authornamehash}{e42c010ba366922fb0a21098bac405da}
-      \strng{authorfullhash}{e42c010ba366922fb0a21098bac405da}
-      \strng{authorfullhashraw}{e42c010ba366922fb0a21098bac405da}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We extend the theory of gradient flows beyond metric spaces by studying evolution variational inequalities (EVIs) driven by general cost functions $c$, including Bregman and entropic transport divergences. We establish several properties of the resulting flows, including stability and energy identities. Using novel notions of convexity related to costs $c$, we prove that EVI flows are the limit of splitting schemes, providing assumptions for both implicit and explicit iterations.}
-      \field{eprintclass}{math.FA}
-      \field{eprinttype}{arXiv}
-      \field{title}{Evolution variational inequalities with general costs}
-      \field{usera}{[13]}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2505.00559
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2505.00559
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2505.00559
-      \endverb
-    \endentry
     \entry{DePontiSodiniTamanini25}{preprint}{}{}
       \name{author}{3}{}{%
         {{hash=1fdbebf78dc0b2127f0f531b0a20c1b4}{%
@@ -232,7 +187,7 @@
       \field{eprintclass}{math.MG}
       \field{eprinttype}{arXiv}
       \field{title}{The infimal convolution structure of the Hellinger-Kantorovich distance}
-      \field{usera}{[12]}
+      \field{usera}{[13]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -272,7 +227,7 @@
       \field{eprintclass}{math.FA}
       \field{eprinttype}{arXiv}
       \field{title}{The Hellinger-Kantorovich metric measure geometry on spaces of measures}
-      \field{usera}{[11]}
+      \field{usera}{[12]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -318,7 +273,7 @@
       \field{eprintclass}{math.FA}
       \field{eprinttype}{arXiv}
       \field{title}{A Lagrangian approach to totally dissipative evolutions in Wasserstein spaces}
-      \field{usera}{[10]}
+      \field{usera}{[11]}
       \field{year}{2023}
       \true{nocite}
       \verb{eprint}
@@ -329,6 +284,55 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2305.05211
+      \endverb
+    \endentry
+    \entry{Aubin-FrankowskiSodiniStefanelli25}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8c95f8d8db478d4478d3ba540ca9965c}{%
+           family={Aubin-Frankowski},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Pierre-Cyril},
+           giveni={P\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fd2675cf6df143fc4754c08408d7e227}{%
+           family={Stefanelli},
+           familyi={S\bibinitperiod},
+           given={Ulisse},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{fullhash}{e42c010ba366922fb0a21098bac405da}
+      \strng{fullhashraw}{e42c010ba366922fb0a21098bac405da}
+      \strng{bibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorbibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authornamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorfullhash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorfullhashraw}{e42c010ba366922fb0a21098bac405da}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We extend the theory of gradient flows beyond metric spaces by studying evolution variational inequalities (EVIs) driven by general cost functions $c$, including Bregman and entropic transport divergences. We establish several properties of the resulting flows, including stability and energy identities. Using novel notions of convexity related to costs $c$, we prove that EVI flows are the limit of splitting schemes, providing assumptions for both implicit and explicit iterations.}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{1}
+      \field{title}{Evolution variational inequalities with general costs}
+      \field{usera}{[10]}
+      \field{volume}{291}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{Paper No. 111469}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jfa.2026.111469
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jfa.2026.111469
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jfa.2026.111469
       \endverb
     \endentry
     \entry{PasqualettoSodini25}{article}{}{}

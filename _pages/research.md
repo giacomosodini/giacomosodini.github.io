@@ -51,7 +51,7 @@ Together with [Giulia Cavagnari](https://sites.google.com/view/giulia-cavagnari)
 
 In a separate collaboration with [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) and [Goro Akagi](http://www.math.tohoku.ac.jp/~akagi/), see [[ASS25]](/publications#AkagiSodiniStefanelli25), we are investigating doubly non-linear fractional gradient flows in Hilbert spaces. These are evolution equations of gradient flow type, where the time derivative is replaced by its fractional counterpart and nonlinearities appear both inside and outside the time operator.
 
-Together with [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) and [Pierre-Cyril Aubin-Frankowski](https://pcaubin.github.io), see [[AFSS25]](/publications#Aubin-FrankowskiSodiniStefanelli25), I am also working on gradient flow evolutions in metric spaces—or more generally, in spaces where the distance function fails to satisfy the triangle inequality. The idea is to adapt the metric structure to the functional being minimized, allowing flexibility in the choice of pseudo-distances while still ensuring convergence of the minimizing movement scheme to actual minimizers.
+Together with [Ulisse Stefanelli](https://www.mat.univie.ac.at/~stefanelli/) and [Pierre-Cyril Aubin-Frankowski](https://pcaubin.github.io), see [[AFSS25]](/publications#Aubin-FrankowskiSodiniStefanelli25), I also worked on gradient flow evolutions in metric spaces—or more generally, in spaces where the distance function fails to satisfy the triangle inequality. The idea is to adapt the metric structure to the functional being minimized, allowing flexibility in the choice of pseudo-distances while still ensuring convergence of the minimizing movement scheme to actual minimizers.
 
 
  
