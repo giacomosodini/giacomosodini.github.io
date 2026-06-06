@@ -64,52 +64,6 @@
       \verb https://arxiv.org/abs/2511.03522
       \endverb
     \endentry
-    \entry{CavagnariSavareSodini25_b}{preprint}{}{}
-      \name{author}{3}{}{%
-        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
-           family={Cavagnari},
-           familyi={C\bibinitperiod},
-           given={Giulia},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
-           family={Savaré},
-           familyi={S\bibinitperiod},
-           given={Giuseppe},
-           giveni={G\bibinitperiod}}}%
-        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
-           family={Sodini},
-           familyi={S\bibinitperiod},
-           given={Giacomo\bibnamedelima Enrico},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{fullhashraw}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
-      \strng{authorfullhashraw}{5cbea06f305104e9dbc62ad6c1481b11}
-      \field{extraname}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We study the convergence of stochastic time-discretization schemes for evolution equations driven by random velocity fields, including examples like stochastic gradient descent and interacting particle systems. Using a unified framework based on Multivalued Probability Vector Fields, we analyze these dynamics at the level of probability measures in the Wasserstein space. Under suitable dissipativity and boundedness conditions, we prove that the laws of the interpolated trajectories converge to those of a limiting evolution governed by a maximal dissipative extension of the associated barycentric field. This provides a general measure-theoretic study for the convergence of stochastic schemes in continuous time.}
-      \field{eprintclass}{math.FA}
-      \field{eprinttype}{arXiv}
-      \field{title}{Stochastic Euler Schemes and Dissipative Evolutions in the Space of Probability Measures}
-      \field{usera}{[15]}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2505.20801
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2505.20801
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2505.20801
-      \endverb
-    \endentry
     \entry{DePontiSodiniTamanini25}{preprint}{}{}
       \name{author}{3}{}{%
         {{hash=1fdbebf78dc0b2127f0f531b0a20c1b4}{%
@@ -142,7 +96,7 @@
       \field{eprintclass}{math.MG}
       \field{eprinttype}{arXiv}
       \field{title}{The infimal convolution structure of the Hellinger-Kantorovich distance}
-      \field{usera}{[14]}
+      \field{usera}{[15]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -182,7 +136,7 @@
       \field{eprintclass}{math.FA}
       \field{eprinttype}{arXiv}
       \field{title}{The Hellinger-Kantorovich metric measure geometry on spaces of measures}
-      \field{usera}{[13]}
+      \field{usera}{[14]}
       \field{year}{2025}
       \true{nocite}
       \verb{eprint}
@@ -193,6 +147,48 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2503.07802
+      \endverb
+    \endentry
+    \entry{CavagnariSavareSodini25_b}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=69ada1a9f7395a908e1d515b305bfb69}{%
+           family={Cavagnari},
+           familyi={C\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d9b6eaad8ff003b7a52715955b3cd2e0}{%
+           family={Savaré},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{fullhashraw}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{bibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorbibnamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authornamehash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhash}{5cbea06f305104e9dbc62ad6c1481b11}
+      \strng{authorfullhashraw}{5cbea06f305104e9dbc62ad6c1481b11}
+      \field{extraname}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the convergence of stochastic time-discretization schemes for evolution equations driven by random velocity fields, including examples like stochastic gradient descent and interacting particle systems. Using a unified framework based on Multivalued Probability Vector Fields, we analyze these dynamics at the level of probability measures in the Wasserstein space. Under suitable dissipativity and boundedness conditions, we prove that the laws of the interpolated trajectories converge to those of a limiting evolution governed by a maximal dissipative extension of the associated barycentric field. This provides a general measure-theoretic study for the convergence of stochastic schemes in continuous time.}
+      \field{journaltitle}{To appear in Mathematical Models and Methods in Applied Sciences}
+      \field{title}{Stochastic Euler Schemes and Dissipative Evolutions in the Space of Probability Measures}
+      \field{usera}{[13]}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.20801
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.20801
       \endverb
     \endentry
     \entry{AkagiSodiniStefanelli25}{article}{}{}
