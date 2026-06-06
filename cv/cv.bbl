@@ -184,6 +184,9 @@
       \field{usera}{[13]}
       \field{year}{2026}
       \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.20801
+      \endverb
       \verb{urlraw}
       \verb https://arxiv.org/abs/2505.20801
       \endverb
