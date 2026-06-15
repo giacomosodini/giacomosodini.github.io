@@ -19,6 +19,52 @@
 
 \refsection{0}
   \datalist[entry]{order/global//global/global/global}
+    \entry{Aubin-FrankowskiSodiniStefanelli26}{preprint}{}{}
+      \name{author}{3}{}{%
+        {{hash=8c95f8d8db478d4478d3ba540ca9965c}{%
+           family={Aubin-Frankowski},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Pierre-Cyril},
+           giveni={P\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fd2675cf6df143fc4754c08408d7e227}{%
+           family={Stefanelli},
+           familyi={S\bibinitperiod},
+           given={Ulisse},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{fullhash}{e42c010ba366922fb0a21098bac405da}
+      \strng{fullhashraw}{e42c010ba366922fb0a21098bac405da}
+      \strng{bibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorbibnamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authornamehash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorfullhash}{e42c010ba366922fb0a21098bac405da}
+      \strng{authorfullhashraw}{e42c010ba366922fb0a21098bac405da}
+      \field{extraname}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Based on a variational characterization of the local slope of a functional, we extend the celebrated Brezis-Ekeland-Nayroles null-minimization principle to curves of maximal slope in metric spaces. In the time-continuous setting, we check that the ensuing global-in-time functionals admit minimizers.}
+      \field{eprintclass}{math.MG}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Brezis-Ekeland-Nayroles principle in metric spaces: time-continuous setting}
+      \field{usera}{[17]}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2606.14432
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2606.14432
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2606.14432
+      \endverb
+    \endentry
     \entry{DelarueMartiniSodini25}{preprint}{}{}
       \name{author}{3}{}{%
         {{hash=799c6f3ae3f94478b9b2d2aadabd8387}{%
@@ -317,6 +363,7 @@
       \strng{authornamehash}{e42c010ba366922fb0a21098bac405da}
       \strng{authorfullhash}{e42c010ba366922fb0a21098bac405da}
       \strng{authorfullhashraw}{e42c010ba366922fb0a21098bac405da}
+      \field{extraname}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We extend the theory of gradient flows beyond metric spaces by studying evolution variational inequalities (EVIs) driven by general cost functions $c$, including Bregman and entropic transport divergences. We establish several properties of the resulting flows, including stability and energy identities. Using novel notions of convexity related to costs $c$, we prove that EVI flows are the limit of splitting schemes, providing assumptions for both implicit and explicit iterations.}
