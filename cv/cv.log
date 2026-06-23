@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  15 JUN 2026 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  23 JUN 2026 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,6 +1446,10 @@ Package biblatex Warning: No driver for 'preprint'.
 (biblatex)                Using fallback driver on input line 8.
 
 
+Package biblatex Warning: No driver for 'preprint'.
+(biblatex)                Using fallback driver on input line 8.
+
+
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
 (biblatex)                non-overlapping bibliographies benefit from
@@ -1556,13 +1560,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 (\end occurred when \unless\ifeof on line 256 was incomplete)
 (\end occurred when \unless\ifeof on line 256 was incomplete) 
 Here is how much of TeX's memory you used:
- 40343 strings out of 473190
- 814358 string characters out of 5715799
- 1642135 words of memory out of 5000000
- 62945 multiletter control sequences out of 15000+600000
+ 40347 strings out of 473190
+ 814539 string characters out of 5715799
+ 1642171 words of memory out of 5000000
+ 62948 multiletter control sequences out of 15000+600000
  605989 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,106p,1819b,1473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,106p,1819b,1474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/
@@ -1578,10 +1582,10 @@ m0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1
 5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pf
 b>
-Output written on cv.pdf (3 pages, 293663 bytes).
+Output written on cv.pdf (3 pages, 293429 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

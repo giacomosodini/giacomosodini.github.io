@@ -19,6 +19,46 @@
 
 \refsection{0}
   \datalist[entry]{order/global//global/global/global}
+    \entry{FornasierSodini26}{preprint}{}{}
+      \name{author}{2}{}{%
+        {{hash=b737c1799562207b8bafaabddf3e8d01}{%
+           family={Fornasier},
+           familyi={F\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=64f7a85dee0c4225a0941e2716de394b}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Giacomo\bibnamedelima Enrico},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{fullhash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{fullhashraw}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{bibnamehash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{authorbibnamehash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{authornamehash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{authorfullhash}{14eb3341659a2ea4323f977c6f4ebfad}
+      \strng{authorfullhashraw}{14eb3341659a2ea4323f977c6f4ebfad}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In our recent work [FHS25], we introduced a numerical framework for approximating Sobolev functions on Wasserstein spaces from finite samples, leveraging structural properties established in [FSS23]. The present paper demonstrates that this methodology extends far beyond that specific setting. We identify a general class of metric measure spaces -- including weighted Riemannian manifolds and spaces of measures equipped with the Hellinger--Kantorovich distance -- for which the key hypotheses of Hilbertianity and the existence of a computable algebra of Lipschitz functions hold. Within this abstract framework, we recover and generalize the core approximation results of [FHS25] for recovering functions from random point evaluations. Our main contribution is to show that the combination of theoretical foundations from [FSS23] and algorithmic strategies from [FHS25] is robust enough to apply to a wide variety of infinite-dimensional spaces of current interest.}
+      \field{eprintclass}{math.FA}
+      \field{eprinttype}{arXiv}
+      \field{title}{Approximation in Metric Sobolev Spaces: A General Framework}
+      \field{usera}{[18]}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2606.23282
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2606.23282
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2606.23282
+      \endverb
+    \endentry
     \entry{Aubin-FrankowskiSodiniStefanelli26}{preprint}{}{}
       \name{author}{3}{}{%
         {{hash=8c95f8d8db478d4478d3ba540ca9965c}{%
