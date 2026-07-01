@@ -170,25 +170,43 @@
 \newread\myread% Get a file handle grip called \myread
 
 
-\newcommand{\loaditemsfromfile}[1]{%
+\newcommand{\loaditemsfromfile}[2]{%
 \IfFileExists{#1}{%
+  \begingroup
+  % Le intestazioni "### Nome sezione" contengono '#', che va reso innocuo per la lettura del file
+  \catcode`\#=12
+  \catcode`\%=12
+  \catcode`\&=12
+  \catcode`\_=12
+  \catcode`\~=12
+  \catcode`\^=12
+  \catcode`\$=12
+  \readingtafalse
   \openin\myread=#1
-  \resumeItemListStart  
+  \resumeItemListStart
     \loop\unless\ifeof\myread%
     \read\myread to \localvariable
     \ifeof\myread
     \else
+        % Attiva la sottosezione
+        \IfSubStr{\localvariable}{#2}{\readingtatrue}{}%
+        % Disattiva alla fine della sottosezione
+        \IfSubStr{\localvariable}{---}{\readingtafalse}{}%
+        \ifreadingta
     	\IfBeginWith{\localvariable}{- **}{
 	\StrBetween[1,1]{\localvariable}{- **}{** -}[\thedate]%
 	\StrBetween[1,1]{\localvariable}{- *"}{"* -}[\thetitle]%
 	\StrBehind{\localvariable}{"* - }[\thelocation]
   \item \textbf{\thedate} \emph{\thetitle}, \thelocation
-	
+
  }
+    {}%
+        \fi
     \fi
     \repeat
   \resumeItemListEnd % close the environment
   \closein\myread%  \close the file
+  \endgroup
 }{}%
 }
 
@@ -297,8 +315,15 @@
 \input{inputs/publications}
 
 \section{\textbf{Talks}}
-\vspace{4mm}
-\loaditemsfromfile{../_pages/activities.md}
+
+\subsection*{Invited Seminars}
+\loaditemsfromfile{../_pages/activities.md}{Invited Seminars}
+
+\subsection*{Invited Conference Talks}
+\loaditemsfromfile{../_pages/activities.md}{Invited Conference Talks}
+
+\subsection*{Contributed Talks}
+\loaditemsfromfile{../_pages/activities.md}{Contributed Talks}
 
 
 
