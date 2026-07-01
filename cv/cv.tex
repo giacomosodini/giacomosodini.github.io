@@ -301,6 +301,42 @@
   }%
 }
 
+% Carica una sottosezione come semplice elenco puntato, senza data/titolo/luogo
+\newcommand{\loadplainlist}[2]{%
+  \IfFileExists{#1}{%
+    \begingroup
+    \catcode`\#=12
+    \catcode`\%=12
+    \catcode`\&=12
+    \catcode`\_=12
+    \catcode`\~=12
+    \catcode`\^=12
+    \catcode`\$=12
+    \readingtafalse
+    \openin\myread=#1
+    \resumeItemListStart
+      \loop\unless\ifeof\myread%
+      \read\myread to \localvariable
+      \ifeof\myread
+      \else
+          \IfSubStr{\localvariable}{#2}{\readingtatrue}{}%
+          \IfSubStr{\localvariable}{---}{\readingtafalse}{}%
+          \ifreadingta
+            \IfBeginWith{\localvariable}{- }{%
+              \StrBehind{\localvariable}{- }[\plainitem]%
+              \ifx\plainitem\empty\else \item \ConvertMDLinks{\plainitem} \fi
+            }{}%
+          \fi
+      \fi
+      \repeat
+    \resumeItemListEnd
+    \closein\myread
+    \endgroup
+  }{%
+    File not found%
+  }%
+}
+
 
 
 
@@ -354,6 +390,19 @@
 \begin{itemize}
 \loaditemta{../_pages/teaching.md}{Teaching Assistant}
 \end{itemize}
+
+
+
+\section{\textbf{Service}}
+
+\subsection*{Conference/Session Organization}
+\loaditemsfromfile{../_pages/service.md}{Conference/Session Organization}
+
+\subsection*{Peer Review}
+\loadplainlist{../_pages/service.md}{Peer Review}
+
+\subsection*{Thesis Supervision}
+\loadplainlist{../_pages/service.md}{Thesis Supervision}
 
 \vspace{2em}
 \begin{center}
