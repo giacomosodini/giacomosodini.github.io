@@ -240,7 +240,19 @@
     \StrBehind{#1}{]}[\mdrest]%
     \StrBetween{\mdrest}{(}{)}[\mdurl]%
     \StrBehind{\mdrest}{)}[\mdsuffix]%
-    \mdprefix\href{\mdurl}{\mdtext}\ConvertMDLinks{\mdsuffix}%
+    \ConvertMDItalics{\mdprefix}\href{\mdurl}{\mdtext}\ConvertMDLinks{\mdsuffix}%
+  }{%
+    \ConvertMDItalics{#1}%
+  }%
+}
+
+% Converte il corsivo Markdown "*testo*" in \emph{testo}
+\newcommand{\ConvertMDItalics}[1]{%
+  \IfSubStr{#1}{*}{%
+    \StrBefore{#1}{*}[\mdiprefix]%
+    \StrBetween[1,2]{#1}{*}{*}[\mditext]%
+    \StrBehind[2]{#1}{*}[\mdisuffix]%
+    \mdiprefix\emph{\mditext}\ConvertMDItalics{\mdisuffix}%
   }{%
     #1%
   }%
@@ -337,6 +349,39 @@
   }%
 }
 
+% Carica una sottosezione come paragrafo continuo (niente elenco puntato)
+\newcommand{\loadplaintext}[2]{%
+  \IfFileExists{#1}{%
+    \begingroup
+    \catcode`\#=12
+    \catcode`\%=12
+    \catcode`\&=12
+    \catcode`\_=12
+    \catcode`\~=12
+    \catcode`\^=12
+    \catcode`\$=12
+    \readingtafalse
+    \openin\myread=#1
+    \loop\unless\ifeof\myread%
+    \read\myread to \localvariable
+    \ifeof\myread
+    \else
+        \ifreadingta
+          \IfSubStr{\localvariable}{---}{\readingtafalse}{%
+            \ifx\localvariable\empty\else \ConvertMDLinks{\localvariable}\space\fi
+          }%
+        \else
+          \IfSubStr{\localvariable}{#2}{\readingtatrue}{}%
+        \fi
+    \fi
+    \repeat
+    \closein\myread
+    \endgroup
+  }{%
+    File not found%
+  }%
+}
+
 
 
 
@@ -399,7 +444,7 @@
 \loaditemsfromfile{../_pages/service.md}{Conference/Session Organization}
 
 \subsection*{Peer Review}
-\loadplainlist{../_pages/service.md}{Peer Review}
+\loadplaintext{../_pages/service.md}{Peer Review}
 
 \subsection*{Thesis Supervision}
 \loadplainlist{../_pages/service.md}{Thesis Supervision}
