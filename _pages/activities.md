@@ -2,7 +2,7 @@
 layout: page
 permalink: /activities/
 title: Talks
-description: This is a list of selected talks I gave.
+description:
 nav: true
 nav_order: 7
 nav_title: "talks"
