@@ -278,7 +278,7 @@
           \StrBetween[1,1]{\expandafter\detokenize\expandafter{\localline}}{- **}{**:}[\theplace]
           \global\let\theplace\theplace % StrBetween assegna localmente: rendiamolo globale prima di chiudere la lista, altrimenti si perde il valore
           \ifinitemize\resumeItemListEnd\initemizefalse\fi
-            \vspace{-1em}\item \textbf{\theplace} \vspace{0.75em}
+            \vspace{-0.4em}\item \textbf{\theplace} \vspace{1.1em}
           }{%
             % Riga con corso
             \IfBeginWith{\expandafter\detokenize\expandafter{\localline}}{- }{%
