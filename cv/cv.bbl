@@ -323,8 +323,8 @@
       \field{volume}{474}
       \field{year}{2026}
       \true{nocite}
-      \field{pages}{114528}
-      \range{pages}{1}
+      \field{pages}{Paper No. 114528}
+      \range{pages}{-1}
       \verb{doi}
       \verb 10.1016/j.jde.2026.114528
       \endverb
@@ -373,8 +373,8 @@
       \field{volume}{470}
       \field{year}{2026}
       \true{nocite}
-      \field{pages}{114395}
-      \range{pages}{1}
+      \field{pages}{Paper No. 114395}
+      \range{pages}{-1}
       \verb{doi}
       \verb 10.1016/j.jde.2026.114395
       \endverb
@@ -467,8 +467,8 @@
       \field{volume}{32}
       \field{year}{2026}
       \true{nocite}
-      \field{pages}{28}
-      \range{pages}{1}
+      \field{pages}{Paper No. 28}
+      \range{pages}{-1}
       \verb{doi}
       \verb 10.1051/cocv/2026014
       \endverb
@@ -648,7 +648,7 @@
       \field{volume}{62}
       \field{year}{2023}
       \true{nocite}
-      \field{pages}{Paper No. 212\bibrangessep 41}
+      \field{pages}{Paper No. 212}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1007/s00526-023-02543-1
@@ -698,7 +698,7 @@
       \field{volume}{285}
       \field{year}{2023}
       \true{nocite}
-      \field{pages}{Paper No. 110153\bibrangessep 76}
+      \field{pages}{Paper No. 110153}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1016/j.jfa.2023.110153
@@ -917,8 +917,6 @@
       \field{usera}{[T1]}
       \field{year}{2022}
       \true{nocite}
-      \field{pages}{296}
-      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection
