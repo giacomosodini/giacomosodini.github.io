@@ -9,21 +9,21 @@ nav_title: "talks"
 ---
 
 ### Invited Seminars
-- **11.2025** - *"Analysis seminar"* - Federico II University, Naples
-- **11.2025** - *"Institut für Statistik seminar"* - TU Graz, Graz
-- **10.2025** - *"AKOR seminar"* - TU Vienna, Vienna
-- **10.2025** - *"Analysis and Applied Mathematics Seminar"* - Bocconi University, Milano
-- **04.2025** - *"Seminar on Calculus of Variations"* - University of Vienna, Vienna
-- **10.2024** - *"Analysis group seminar"* - University of Durham, Durham
-- **11.2023** - *"Probability group seminar"* - Université Côte d'Azur, Nice
-- **11.2023** - *"Probability group internal seminar"* - University of Vienna, Vienna
-- **05.2023** - *"PDE Afternoon"* - University of Vienna, Vienna
-- **01.2023** - *"Maas group weekly seminar"* - ISTA, Klosterneuburg
-- **10.2022** - *"Seminar on Calculus of Variations"* - University of Vienna, Vienna
-- **07.2022** - *"KU-LMU-TUM Joint Seminar"* - TUM, Munich
-- **05.2022** - *"Oberseminar"* - TUM, Munich
-- **11.2021** - *"Mathematics Department Seminars"* - Politecnico di Milano, Milano
-- **04.2020** - *"SeMiNarri di Matematica"* - University of Pavia, Pavia
+- **11.2025** - Department of Mathematics, University of Naples Federico II, Naples
+- **11.2025** - Institut für Statistik, TU Graz, Graz
+- **10.2025** - VADOR group, Institute of Analysis and Scientific Computing, TU Vienna, Vienna
+- **10.2025** - Department of Decision Sciences, Bocconi University, Milano
+- **04.2025** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
+- **10.2024** - Department of Mathematical Sciences, University of Durham, Durham
+- **11.2023** - Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice
+- **11.2023** - Mathematical Finance and Probability Theory group, Faculty of Mathematics, University of Vienna, Vienna
+- **05.2023** - PDE Afternoon, University of Vienna, Vienna
+- **01.2023** - Stochastic Analysis Group, ISTA, Klosterneuburg
+- **10.2022** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
+- **07.2022** - KU-LMU-TUM Joint Seminar, TU Munich, Munich
+- **05.2022** - Research Group Data Science, TU Munich, Munich
+- **11.2021** - Department of Mathematics, Politecnico di Milano, Milano
+- **04.2020** - SeMiNarri di Matematica, University of Pavia, Pavia
 
 ---
 

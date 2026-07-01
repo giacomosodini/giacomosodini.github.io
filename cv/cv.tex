@@ -195,9 +195,14 @@
         \ifreadingta
     	\IfBeginWith{\localvariable}{- **}{
 	\StrBetween[1,1]{\localvariable}{- **}{** -}[\thedate]%
-	\StrBetween[1,1]{\localvariable}{- *"}{"* -}[\thetitle]%
-	\StrBehind{\localvariable}{"* - }[\thelocation]
-  \item \textbf{\thedate} \emph{\thetitle}, \thelocation
+	\StrBehind{\localvariable}{** - }[\therest]%
+	\IfBeginWith{\therest}{*"}{
+	  \StrBetween[1,1]{\localvariable}{- *"}{"* -}[\thetitle]%
+	  \StrBehind{\localvariable}{"* - }[\thelocation]
+	  \item \textbf{\thedate} \emph{\thetitle}, \thelocation
+	}{
+	  \item \textbf{\thedate} \therest
+	}%
 
  }
     {}%
