@@ -9,6 +9,7 @@ nav_title: "talks"
 ---
 
 ### Invited Seminars
+- **[06.2026](https://www.mimuw.edu.pl/~ichlebicka/acv.html)** - Faculty of Mathematics, Informatics and Mechanics, University of Warsaw, Warsaw
 - **[11.2025](https://www.matematica.unina.it/?ajde_events=dott-giacomo-sodini-universita-di-vienna-sobolev-functions-in-spaces-of-probability-measures-and-applications)** - Department of Mathematics, University of Naples Federico II, Naples
 - **[11.2025](https://www.tugraz.at/fileadmin/user_upload/Institute/STAT/documents/Seminar/Winter_Term_25-26/FOSP_GV_Sodini_061125-1.pdf)** - Institut für Statistik, TU Graz, Graz
 - **[10.2025](https://www.tuwien.at/en/tu-wien/news/events/news/akor-seminar-title-to-follow)** - VADOR group, Institute of Analysis and Scientific Computing, TU Vienna, Vienna
