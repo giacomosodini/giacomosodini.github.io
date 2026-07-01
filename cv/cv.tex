@@ -196,9 +196,9 @@
     	\IfBeginWith{\localvariable}{- **}{
 	\StrBetween[1,1]{\localvariable}{- **}{** -}[\thedate]%
 	\StrBehind{\localvariable}{** - }[\therest]%
-	\IfBeginWith{\therest}{*"}{
-	  \StrBetween[1,1]{\localvariable}{- *"}{"* -}[\thetitle]%
-	  \StrBehind{\localvariable}{"* - }[\thelocation]
+	\IfBeginWith{\therest}{*}{
+	  \StrBetween[1,1]{\therest}{*}{* - }[\thetitle]%
+	  \StrBehind{\therest}{* - }[\thelocation]
 	  \item \textbf{\ConvertMDLinks{\thedate}} \emph{\thetitle}, \thelocation
 	}{
 	  \item \textbf{\ConvertMDLinks{\thedate}} \therest

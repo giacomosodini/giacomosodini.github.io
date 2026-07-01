@@ -29,26 +29,26 @@ nav_title: "talks"
 ---
 
 ### Invited Conference Talks
-- **09.2025** - *"The Annual 2025 ÖMG-DMV Meeting"* - JKU, Linz
-- **05.2024** - *"Lions-Magenes days 2024"* - University of Pavia, Pavia
-- **04.2024** - *"Variational Analysis, Models and Methods in Measure Spaces"* - CIRM, Marseille
-- **09.2023** - *"The Mathematics of Subjective Probability"* - Bicocca University, Milano
-- **04.2023** - *"OTMFML"* - IAS/TUM, Munich
-- **11.2022** - *"Geometric Analysis and PDEs at PoliMi"* - Politecnico di Milano, Milano
-- **11.2022** - *"Smooth Functions on Rough Spaces and Fractals with Connections to Curvature Functional Inequalities"* - BIRS, Banff
-- **10.2022** - *"Optimal Transportation and Application"* - SNS, Pisa
+- **09.2025** - *The Annual 2025 ÖMG-DMV Meeting* - JKU, Linz
+- **05.2024** - *Lions-Magenes days 2024* - University of Pavia, Pavia
+- **04.2024** - *Variational Analysis, Models and Methods in Measure Spaces* - CIRM, Marseille
+- **09.2023** - *The Mathematics of Subjective Probability* - Bicocca University, Milano
+- **04.2023** - *OTMFML* - IAS/TUM, Munich
+- **11.2022** - *Geometric Analysis and PDEs at PoliMi* - Politecnico di Milano, Milano
+- **11.2022** - *Smooth Functions on Rough Spaces and Fractals with Connections to Curvature Functional Inequalities* - BIRS, Banff
+- **10.2022** - *Optimal Transportation and Application* - SNS, Pisa
 
 ---
 
 ### Contributed Talks
-- **01.2026** - *"Dolomites Winter School"* - Folgarida
-- **10.2025** - *"Austrian Calculus of Variations day"* - University of Graz, Graz
-- **01.2025** - *"Dolomites Winter School"* - Folgarida
-- **11.2024** - *"Austrian Calculus of Variations day"* - University of Innsbruck, Innsbruck
-- **09.2024** - *"MeRiOT"* - Varenna
-- **11.2023** - *"Austrian Calculus of Variations day"* - TU Wien, Vienna
-- **11.2022** - *"Austrian Calculus of Variations day"* - University of Salzburg, Salzburg
-- **06.2022** - *"PIMS-IFDS-NSF Summer School on Optimal Transport"* - University of Washington, Seattle
+- **01.2026** - *Dolomites Winter School* - Folgarida
+- **10.2025** - *Austrian Calculus of Variations day* - University of Graz, Graz
+- **01.2025** - *Dolomites Winter School* - Folgarida
+- **11.2024** - *Austrian Calculus of Variations day* - University of Innsbruck, Innsbruck
+- **09.2024** - *MeRiOT* - Varenna
+- **11.2023** - *Austrian Calculus of Variations day* - TU Wien, Vienna
+- **11.2022** - *Austrian Calculus of Variations day* - University of Salzburg, Salzburg
+- **06.2022** - *PIMS-IFDS-NSF Summer School on Optimal Transport* - University of Washington, Seattle
 
 
 
