@@ -9,21 +9,22 @@ nav_title: "talks"
 ---
 
 ### Invited Seminars
-- **11.2025** - Department of Mathematics, University of Naples Federico II, Naples
-- **11.2025** - Institut für Statistik, TU Graz, Graz
-- **10.2025** - VADOR group, Institute of Analysis and Scientific Computing, TU Vienna, Vienna
-- **10.2025** - Department of Decision Sciences, Bocconi University, Milano
-- **04.2025** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
-- **10.2024** - Department of Mathematical Sciences, University of Durham, Durham
-- **11.2023** - Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice
+- **[11.2025](https://www.matematica.unina.it/?ajde_events=dott-giacomo-sodini-universita-di-vienna-sobolev-functions-in-spaces-of-probability-measures-and-applications)** - Department of Mathematics, University of Naples Federico II, Naples
+- **[11.2025](https://www.tugraz.at/fileadmin/user_upload/Institute/STAT/documents/Seminar/Winter_Term_25-26/FOSP_GV_Sodini_061125-1.pdf)** - Institut für Statistik, TU Graz, Graz
+- **[10.2025](https://www.tuwien.at/en/tu-wien/news/events/news/akor-seminar-title-to-follow)** - VADOR group, Institute of Analysis and Scientific Computing, TU Vienna, Vienna
+- **[10.2025](https://dec.unibocconi.eu/events/giacomo-sodini-sobolev-functions-spaces-probability-measures-and-applications)** - Department of Decision Sciences, Bocconi University, Milano
+- **[04.2025](https://www.mat.univie.ac.at/~stefanelli/calcvar_seminar_SS25.html)** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
+- **[11.2024](https://www.jyu.fi/en/events/analysis-seminar-giacomo-enrico-sodini-university-of-vienna)** - Department of Mathematics, University of Jyväskylä, Jyväskylä
+- **[10.2024](https://www.maths.dur.ac.uk/seminars/pastseminars.html)** - Department of Mathematical Sciences, University of Durham, Durham
+- **[11.2023](https://math.univ-cotedazur.fr/u/delarue/ERC_Seminar.html)** - Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice
 - **11.2023** - Mathematical Finance and Probability Theory group, Faculty of Mathematics, University of Vienna, Vienna
-- **05.2023** - PDE Afternoon, University of Vienna, Vienna
+- **[05.2023](https://sfb65.univie.ac.at/#!/public/events/details/?type=1&id=723)** - PDE Afternoon, University of Vienna, Vienna
 - **01.2023** - Stochastic Analysis Group, ISTA, Klosterneuburg
-- **10.2022** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
+- **[10.2022](https://www.mat.univie.ac.at/~stefanelli/calcvar_seminar_WS22.html)** - Applied Mathematics and Modeling group, Faculty of Mathematics, University of Vienna, Vienna
 - **07.2022** - KU-LMU-TUM Joint Seminar, TU Munich, Munich
 - **05.2022** - Research Group Data Science, TU Munich, Munich
-- **11.2021** - Department of Mathematics, Politecnico di Milano, Milano
-- **04.2020** - SeMiNarri di Matematica, University of Pavia, Pavia
+- **[11.2021](https://www.mate.polimi.it/eventi/?id=2106&sezione_di_ricerca=&stringa=sodini&submit=Submit#single)** - Department of Mathematics, Politecnico di Milano, Milano
+- **[04.2020](https://www.facebook.com/events/2622394204662001?locale=eo_EO)** - SeMiNarri di Matematica, University of Pavia, Pavia
 
 ---
 
@@ -43,7 +44,6 @@ nav_title: "talks"
 - **01.2026** - *"Dolomites Winter School"* - Folgarida
 - **10.2025** - *"Austrian Calculus of Variations day"* - University of Graz, Graz
 - **01.2025** - *"Dolomites Winter School"* - Folgarida
-- **11.2024** - *"Math department seminar"* - University of Jyväskylä, Jyväskylä
 - **11.2024** - *"Austrian Calculus of Variations day"* - University of Innsbruck, Innsbruck
 - **09.2024** - *"MeRiOT"* - Varenna
 - **11.2023** - *"Austrian Calculus of Variations day"* - TU Wien, Vienna
