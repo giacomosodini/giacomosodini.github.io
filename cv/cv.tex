@@ -136,6 +136,23 @@
   }
 }
 
+\renewbibmacro*{doi+eprint+url}{%
+  \iffieldundef{npages}
+    {}
+    {\printfield{npages}\space pp.%
+     \newunit\newblock}%
+  \iftoggle{bbx:doi}
+    {\printfield{doi}}
+    {}%
+  \newunit\newblock
+  \iftoggle{bbx:eprint}
+    {\usebibmacro{eprint}}
+    {}%
+  \newunit\newblock
+  \iftoggle{bbx:url}
+    {\usebibmacro{url+urldate}}
+    {}}
+
 
 \AtEveryBibitem{%
   \clearfield{url}%
