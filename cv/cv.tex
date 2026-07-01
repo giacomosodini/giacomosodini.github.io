@@ -207,8 +207,33 @@
 \newread\myread
 \newif\ifreadingta
 
+% Converte i link in stile Markdown "[testo](url)" in \href{url}{testo},
+% cercando ogni occorrenza in successione (gestisce più link sulla stessa riga).
+\newcommand{\ConvertMDLinks}[1]{%
+  \IfSubStr{#1}{[}{%
+    \StrBefore{#1}{[}[\mdprefix]%
+    \StrBetween{#1}{[}{]}[\mdtext]%
+    \StrBehind{#1}{]}[\mdrest]%
+    \StrBetween{\mdrest}{(}{)}[\mdurl]%
+    \StrBehind{\mdrest}{)}[\mdsuffix]%
+    \mdprefix\href{\mdurl}{\mdtext}\ConvertMDLinks{\mdsuffix}%
+  }{%
+    #1%
+  }%
+}
+
 \newcommand{\loaditemta}[2]{%
   \IfFileExists{#1}{%
+    \begingroup
+    % Gli URL letti da file possono contenere questi caratteri speciali di TeX;
+    % li rendiamo "normali" solo per la lettura, altrimenti verrebbero troncati o alterati.
+    \catcode`\%=12
+    \catcode`\&=12
+    \catcode`\#=12
+    \catcode`\_=12
+    \catcode`\~=12
+    \catcode`\^=12
+    \catcode`\$=12
     \openin\myread=#1
     \readingtafalse
     \loop\unless\ifeof\myread
@@ -231,13 +256,14 @@
             % Riga con corso
             \IfBeginWith{\expandafter\detokenize\expandafter{\localline}}{- }{%
               \StrBehind{\expandafter\detokenize\expandafter{\localline}}{- }[\course]
-              \ifx\course\empty\else  \vspace{-2.25em}\resumeItemListStart \item  \course \resumeItemListEnd \fi
+              \ifx\course\empty\else  \vspace{-2.25em}\resumeItemListStart \item  \ConvertMDLinks{\course} \resumeItemListEnd \fi
             }{}%
           }%
         \fi
       \fi
     \repeat
     \closein\myread
+    \endgroup
   }{%
     File not found%
   }%
@@ -270,6 +296,7 @@
 \input{inputs/publications}
 
 \section{\textbf{Talks}}
+\vspace{4mm}
 \loaditemsfromfile{../_pages/activities.md}
 
 
