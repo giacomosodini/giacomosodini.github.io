@@ -199,9 +199,9 @@
 	\IfBeginWith{\therest}{*"}{
 	  \StrBetween[1,1]{\localvariable}{- *"}{"* -}[\thetitle]%
 	  \StrBehind{\localvariable}{"* - }[\thelocation]
-	  \item \textbf{\thedate} \emph{\thetitle}, \thelocation
+	  \item \textbf{\ConvertMDLinks{\thedate}} \emph{\thetitle}, \thelocation
 	}{
-	  \item \textbf{\thedate} \therest
+	  \item \textbf{\ConvertMDLinks{\thedate}} \therest
 	}%
 
  }
