@@ -260,6 +260,7 @@
     \catcode`\$=12
     \openin\myread=#1
     \readingtafalse
+    \initemizefalse
     \loop\unless\ifeof\myread
       \read\myread to \localline
       \ifeof\myread\else
@@ -275,17 +276,24 @@
           % Riga con nome università
           \IfBeginWith{\expandafter\detokenize\expandafter{\localline}}{- **}{%
           \StrBetween[1,1]{\expandafter\detokenize\expandafter{\localline}}{- **}{**:}[\theplace]
+          \global\let\theplace\theplace % StrBetween assegna localmente: rendiamolo globale prima di chiudere la lista, altrimenti si perde il valore
+          \ifinitemize\resumeItemListEnd\initemizefalse\fi
             \vspace{-1em}\item \textbf{\theplace} \vspace{0.75em}
           }{%
             % Riga con corso
             \IfBeginWith{\expandafter\detokenize\expandafter{\localline}}{- }{%
               \StrBehind{\expandafter\detokenize\expandafter{\localline}}{- }[\course]
-              \ifx\course\empty\else  \vspace{-2.25em}\resumeItemListStart \item  \ConvertMDLinks{\course} \resumeItemListEnd \fi
+              \global\let\course\course
+              \ifx\course\empty\else
+                \ifinitemize\else\vspace{-2.25em}\resumeItemListStart\initemizetrue\fi
+                \item \ConvertMDLinks{\course}
+              \fi
             }{}%
           }%
         \fi
       \fi
     \repeat
+    \ifinitemize\resumeItemListEnd\initemizefalse\fi
     \closein\myread
     \endgroup
   }{%

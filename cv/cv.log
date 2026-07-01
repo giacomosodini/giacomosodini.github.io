@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  1 JUL 2026 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.22)  1 JUL 2026 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,47 +1261,47 @@ Package nfssext-cfr Warning: Patching font initialisation macro for typewriter.
  (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 308.
+LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 316.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-08.
+16.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 308.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 316.
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-308.
+316.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 308.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 316.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-08.
+16.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 308.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 316.
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-308.
+316.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 308.
-LaTeX Font Info:    ... okay on input line 308.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1359,7 +1359,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 308.
+Package hyperref Info: Link coloring ON on input line 316.
 (./cv.out) (./cv.out)
 \@outlinefile=\write5
 \openout5 = `cv.out'.
@@ -1386,13 +1386,13 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
 
 (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 308.
-Package biblatex Info: Reference segment=0 on input line 308.
-LaTeX Info: Redefining \swshape on input line 308.
+Package biblatex Info: Reference section=0 on input line 316.
+Package biblatex Info: Reference segment=0 on input line 316.
+LaTeX Info: Redefining \swshape on input line 316.
 
 
 Package nfssext-cfr Warning: Overwriting kernel definition of \swshape  (new) o
-n input line 308.
+n input line 316.
 
 (./inputs/header.tex
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd)
@@ -1405,22 +1405,22 @@ Package pdftex.def Info: arxiv_logo.jpg  used on input line 25.
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 312.
+(Font)              using `T1/cmr/bx/sc' instead on input line 320.
 
 (./inputs/research_interests.tex)
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 314.
+(Font)              using `T1/cmr/bx/sc' instead on input line 322.
 
 (./inputs/current_position.tex)
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 317.
+(Font)              using `T1/cmr/bx/sc' instead on input line 325.
 
 (./inputs/education.tex)
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 319.
+(Font)              using `T1/cmr/bx/sc' instead on input line 327.
 
 (./inputs/publications.tex
 
@@ -1496,10 +1496,10 @@ Package biblatex Warning: Split bibliography detected.
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 322.
+(Font)              using `T1/cmr/bx/sc' instead on input line 330.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 325.
+(Font)              <5> on input line 333.
 
 
 
@@ -1510,7 +1510,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 335.
+(Font)              using `T1/cmr/bx/sc' instead on input line 343.
 
 
 
@@ -1533,7 +1533,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  40360 strings out of 473190
  814695 string characters out of 5715799
- 1644114 words of memory out of 5000000
+ 1644134 words of memory out of 5000000
  62958 multiletter control sequences out of 15000+600000
  605989 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1552,7 +1552,7 @@ ublic/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
 c/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
 cm-super/sfxc1200.pfb>
-Output written on cv.pdf (3 pages, 296262 bytes).
+Output written on cv.pdf (3 pages, 296250 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams
