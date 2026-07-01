@@ -43,7 +43,7 @@ nav_title: "talks"
 
 
 
-<div class="google-map-wrapper" style="position: relative; width: 100%; height: 400px; overflow: hidden;">
+<div class="google-map-wrapper" style="position: relative; width: 100%; height: 400px; overflow: hidden; margin-top: 20px;">
   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&hl=en" 
           width="100%" height="100%" style="border: 0; position: absolute; top: -67px;" 
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
