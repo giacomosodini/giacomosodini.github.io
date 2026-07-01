@@ -1357,6 +1357,7 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+      <bcf:field fieldtype="field" datatype="integer">npages</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2119,6 +2120,9 @@
       <bcf:field>titleaddon</bcf:field>
       <bcf:field>type</bcf:field>
       <bcf:field>venue</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:field>npages</bcf:field>
     </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
