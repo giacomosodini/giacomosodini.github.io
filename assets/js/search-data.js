@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "This is a list of my publications.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-talks",
           title: "Talks",
-          description: "This is a list of selected talks I gave.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "These are the courses I have taught.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
