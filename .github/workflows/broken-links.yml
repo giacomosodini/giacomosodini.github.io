@@ -44,6 +44,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
+          # lychee-action defaults to lychee v0.17.0, which predates the --root-dir flag used below
+          lycheeVersion: v0.24.2
           # removed md files that include liquid tags
           # --root-dir resolves root-relative links (e.g. /assets/..., /publications/) against the
           # repo root, since Jekyll pages use permalinks that don't match their source file location

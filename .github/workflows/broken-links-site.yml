@@ -30,6 +30,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
+          # lychee-action defaults to lychee v0.17.0, which predates the --root-dir flag used below
+          lycheeVersion: v0.24.2
           # only check local links
           # --root-dir resolves root-relative links (e.g. /research/, /assets/...) against the built
           # site's own root, matching how a browser would resolve them
