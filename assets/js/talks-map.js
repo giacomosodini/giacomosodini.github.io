@@ -27,6 +27,12 @@ window.addEventListener("load", function () {
     return null;
   }
 
+  function parseDateKey(text) {
+    var match = text.match(/^(\d{2})\.(\d{4})/);
+    if (!match) return 0;
+    return parseInt(match[2], 10) * 100 + parseInt(match[1], 10);
+  }
+
   var article = mapDiv.closest("article") || document.querySelector("article");
   if (!article) return;
 
@@ -42,7 +48,7 @@ window.addEventListener("load", function () {
         var city = findCity(text);
         if (!city) return;
         if (!byCity[city]) byCity[city] = [];
-        byCity[city].push({ text: text, category: currentCategory });
+        byCity[city].push({ text: text, category: currentCategory, dateKey: parseDateKey(text) });
       });
     }
   });
@@ -50,16 +56,25 @@ window.addEventListener("load", function () {
   var cityKeys = Object.keys(byCity);
   if (cityKeys.length === 0) return;
 
+  cityKeys.forEach(function (city) {
+    byCity[city].sort(function (a, b) {
+      return b.dateKey - a.dateKey;
+    });
+  });
+
+  var minZoom = Math.ceil(Math.log2(mapDiv.clientWidth / 256));
+
   var map = L.map(mapDiv, {
-    scrollWheelZoom: false,
+    scrollWheelZoom: true,
     worldCopyJump: false,
+    minZoom: minZoom,
     maxBounds: [
       [-85, -180],
       [85, 180],
     ],
     maxBoundsViscosity: 1.0,
   });
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
     attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
     maxZoom: 19,
     noWrap: true,

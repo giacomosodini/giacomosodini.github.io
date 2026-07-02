@@ -56,6 +56,9 @@ map: true
 
 
 <div id="talks-map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+<style>
+  .leaflet-attribution-flag { display: none !important; }
+</style>
 
 <script>
   var TALK_MAP_LOCATIONS = {{ site.data.map_locations | jsonify }};
