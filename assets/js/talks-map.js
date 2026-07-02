@@ -2,7 +2,7 @@
    groups entries by the city the entry text ends with (matched against
    TALK_MAP_LOCATIONS) so the talks list itself stays the single source
    of truth; only new locations require an addition to _data/map_locations.yml */
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
   var mapDiv = document.getElementById("talks-map");
   if (!mapDiv || typeof L === "undefined" || typeof TALK_MAP_LOCATIONS === "undefined") {
     return;
@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
     markers.push(marker);
   });
 
+  map.invalidateSize();
   var group = L.featureGroup(markers);
   map.fitBounds(group.getBounds().pad(0.2));
 });
