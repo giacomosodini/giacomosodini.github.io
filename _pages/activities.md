@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 7
 nav_title: "talks"
+map: true
 ---
 
 ### Invited Seminars
@@ -54,8 +55,9 @@ nav_title: "talks"
 
 
 
-<div class="google-map-wrapper" style="position: relative; width: 100%; height: 400px; overflow: hidden; margin-top: 20px;">
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SbcNZ9ghGFvit6SKgXRsbJs1QT6VjWU&ehbc=2E312F&hl=en" 
-          width="100%" height="100%" style="border: 0; position: absolute; top: -67px;" 
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+<div id="talks-map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+
+<script>
+  var TALK_MAP_LOCATIONS = {{ site.data.map_locations | jsonify }};
+</script>
+<script defer src="{{ '/assets/js/talks-map.js' | relative_url }}"></script>
