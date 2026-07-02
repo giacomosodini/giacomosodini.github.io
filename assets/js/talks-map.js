@@ -50,10 +50,19 @@ document.addEventListener("DOMContentLoaded", function () {
   var cityKeys = Object.keys(byCity);
   if (cityKeys.length === 0) return;
 
-  var map = L.map(mapDiv, { scrollWheelZoom: false });
+  var map = L.map(mapDiv, {
+    scrollWheelZoom: false,
+    worldCopyJump: false,
+    maxBounds: [
+      [-85, -180],
+      [85, 180],
+    ],
+    maxBoundsViscosity: 1.0,
+  });
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
     maxZoom: 19,
+    noWrap: true,
   }).addTo(map);
 
   var markers = [];
