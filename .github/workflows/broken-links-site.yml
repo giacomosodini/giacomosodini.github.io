@@ -27,11 +27,13 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v2.1.0
+        uses: lycheeverse/lychee-action@v2.8.0
         with:
           fail: true
-          # lychee-action defaults to lychee v0.17.0, which predates the --root-dir flag used below
-          lycheeVersion: v0.24.2
+          # v0.24.2 ships lychee's binary nested inside a subdirectory in its release tarball, which
+          # this action's install script (even in v2.8.0) doesn't handle; v0.23.0 is the last version
+          # with the flat tarball layout the action expects, and it already supports --root-dir
+          lycheeVersion: v0.23.0
           # only check local links
           # --root-dir resolves root-relative links (e.g. /research/, /assets/...) against the built
           # site's own root, matching how a browser would resolve them
