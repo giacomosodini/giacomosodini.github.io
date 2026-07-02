@@ -89,7 +89,11 @@ window.addEventListener("load", function () {
       "<strong>" +
       city +
       "</strong><ul style='padding-left:16px;margin:4px 0 0 0;'>" +
-      entries.map(function (e) { return "<li>" + e.text + "</li>"; }).join("") +
+      entries
+        .map(function (e) {
+          return "<li>" + e.text + "</li>";
+        })
+        .join("") +
       "</ul>";
     var marker = L.circleMarker([coords[0], coords[1]], {
       radius: 6 + Math.min(entries.length, 6),

@@ -31,4 +31,8 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          # --root-dir resolves root-relative links (e.g. /research/, /assets/...) against the built
+          # site's own root, matching how a browser would resolve them
+          # excluded paths are unmodified al-folio template demo content (redirect/advanced-images
+          # demo posts, sample book review) that reference placeholder assets never added to the site
+          args: --root-dir "$GITHUB_WORKSPACE/_site" --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude-path _site/blog/2022 --exclude-path _site/blog/2024/advanced-images --exclude-path _site/books/the_godfather --verbose --no-progress '_site/**/*.html'

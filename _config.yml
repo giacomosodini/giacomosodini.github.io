@@ -281,7 +281,7 @@ scholar:
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [ smallcaps, superscript]
+  bibtex_filters: [smallcaps, superscript]
   relative: "/publications/"
 
   replace_strings: true
@@ -332,7 +332,7 @@ filtered_bibtex_keywords:
     video,
     website,
     order,
-    listing
+    listing,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
