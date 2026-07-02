@@ -10,6 +10,10 @@ on:
       - master
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
