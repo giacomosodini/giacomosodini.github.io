@@ -1,0 +1,13 @@
+# Artefatti di compilazione LaTeX: rigenerati a ogni build, non serve versionarli.
+# Il PDF finale (cv.pdf) e i sorgenti (cv.tex, inputs/) restano invece tracciati.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
