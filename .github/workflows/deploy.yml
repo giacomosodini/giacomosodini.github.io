@@ -53,14 +53,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
@@ -93,18 +95,30 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Disable Jekyll processing on Pages 🚫
-        # without this, GitHub's own Pages pipeline tries to rebuild the already-built
-        # _site output with Jekyll again, which fails since it isn't raw Jekyll source
-        run: touch _site/.nojekyll
       - name: Upload site artifact 📦
+        # used by the broken-links-site.yml workflow
         uses: actions/upload-artifact@v4
         with:
           name: site
           path: _site
           retention-days: 1
-      - name: Deploy 🚀
+      - name: Setup Pages
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact 📦
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
