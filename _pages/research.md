@@ -23,7 +23,7 @@ My main research interests lie at the intersection of Optimal Transport, Non-Smo
 
 I am interested in the generalization of the classical (i.e. balanced) Optimal Transport problem to the broader setting of pairs of measures which may have different total non-negative masses. Together with [Giuseppe Savaré](https://faculty.unibocconi.eu/giuseppesavare/) we have studied in [[SS24]](/publications#SavareSodini24) a very general approach to the class of Unbalanced Optimal Transport problems, providing a very natural framework where the familiar primal-dual formulation of the classical case is available in suitably generalized forms, among many other relevant properties. The approach we have used is novel also in the classical balanced setting, and has proved to be fruitful also in that case [[SS22]](/publications#SavareSodini22).
 
-The most relevant cost in this framework is the celebrated Hellinger-Kantorovich (HK) distance. Currently I am working in collaboration with [Nicolò De Ponti](https://sites.google.com/view/nicolodeponti) and [Luca Tamanini](https://sites.google.com/view/lucatamanini) to better understand the interplay between the HK distance and the classical Wasserstein and Hellinger distances [[DST25]](/publications#DePontiSodiniTamanini25).
+The most relevant cost in this framework is the celebrated Hellinger-Kantorovich (HK) distance. Currently, I am working in collaboration with [Nicolò De Ponti](https://sites.google.com/view/nicolodeponti) and [Luca Tamanini](https://sites.google.com/view/lucatamanini) to better understand the interplay between the HK distance and the classical Wasserstein and Hellinger distances [[DST25]](/publications#DePontiSodiniTamanini25).
 
 **Calculus on metric spaces and spaces of measures**
 
