@@ -34,27 +34,27 @@ map: true
 
 ### Invited Conference Talks
 
-- **[09.2025](http://www.algebra.uni-linz.ac.at/oemgdmv25/program.php?xtag=M13)** - _The Annual 2025 ÖMG-DMV Meeting_ - JKU, Linz
-- **[05.2024](https://sites.google.com/view/lionsmagenesdays2024/home)** - _Lions-Magenes days 2024_ - University of Pavia, Pavia
-- **[04.2024](https://www.cirm-math.fr/Schedule/display.php?id_renc=3030)** - _Variational Analysis, Models and Methods in Measure Spaces_ - CIRM, Marseille
-- **09.2023** - _The Mathematics of Subjective Probability_ - Bicocca University, Milano
-- **[04.2023](https://www.ias.tum.de/ias/news-events-insights/news/news-single-view/article/workshop-on-optimal-transport-mean-field-models-and-machine-learning/)** - _OTMFML_ - IAS/TUM, Munich
-- **[11.2022](https://sites.google.com/view/gapmi/home)** - _Geometric Analysis and PDEs at PoliMi_ - Politecnico di Milano, Milano
-- **[11.2022](https://www.birs.ca/events/2022/5-day-workshops/22w5080)** - _Smooth Functions on Rough Spaces and Fractals with Connections to Curvature Functional Inequalities_ - BIRS, Banff
-- **[10.2022](https://cvgmt.sns.it/event/723/)** - _Optimal Transportation and Application_ - SNS, Pisa
+- **[09.2025](http://www.algebra.uni-linz.ac.at/oemgdmv25/program.php?xtag=M13)** - *The Annual 2025 ÖMG-DMV Meeting* - JKU, Linz
+- **[05.2024](https://sites.google.com/view/lionsmagenesdays2024/home)** - *Lions-Magenes days 2024* - University of Pavia, Pavia
+- **[04.2024](https://www.cirm-math.fr/Schedule/display.php?id_renc=3030)** - *Variational Analysis, Models and Methods in Measure Spaces* - CIRM, Marseille
+- **09.2023** - *The Mathematics of Subjective Probability* - Bicocca University, Milano
+- **[04.2023](https://www.ias.tum.de/ias/news-events-insights/news/news-single-view/article/workshop-on-optimal-transport-mean-field-models-and-machine-learning/)** - *OTMFML* - IAS/TUM, Munich
+- **[11.2022](https://sites.google.com/view/gapmi/home)** - *Geometric Analysis and PDEs at PoliMi* - Politecnico di Milano, Milano
+- **[11.2022](https://www.birs.ca/events/2022/5-day-workshops/22w5080)** - *Smooth Functions on Rough Spaces and Fractals with Connections to Curvature Functional Inequalities* - BIRS, Banff
+- **[10.2022](https://cvgmt.sns.it/event/723/)** - *Optimal Transportation and Application* - SNS, Pisa
 
 ---
 
 ### Contributed Talks
 
-- **[01.2026](https://sites.google.com/view/dolomitesws26)** - _Dolomites Winter School_ - Folgarida
-- **[10.2025](https://appliedmath.univie.ac.at/public/ACVD/events/5/home/)** - _Austrian Calculus of Variations day_ - University of Graz, Graz
-- **[01.2025](https://sites.google.com/view/dolomitesws25)** - _Dolomites Winter School_ - Folgarida
-- **[11.2024](https://appliedmath.univie.ac.at/public/ACVD/events/4/home/)** - _Austrian Calculus of Variations day_ - University of Innsbruck, Innsbruck
-- **[09.2024](https://sites.google.com/view/meriot2024/home)** - _MeRiOT_ - Varenna
-- **[11.2023](https://appliedmath.univie.ac.at/public/ACVD/events/3/home/)** - _Austrian Calculus of Variations day_ - TU Wien, Vienna
-- **[11.2022](https://appliedmath.univie.ac.at/public/ACVD/events/2/home/)** - _Austrian Calculus of Variations day_ - University of Salzburg, Salzburg
-- **[06.2022](https://kantorovich.org/event/2022-optimal-transport-summer-school/)** - _PIMS-IFDS-NSF Summer School on Optimal Transport_ - University of Washington, Seattle
+- **[01.2026](https://sites.google.com/view/dolomitesws26)** - *Dolomites Winter School* - Folgarida
+- **[10.2025](https://appliedmath.univie.ac.at/public/ACVD/events/5/home/)** - *Austrian Calculus of Variations day* - University of Graz, Graz
+- **[01.2025](https://sites.google.com/view/dolomitesws25)** - *Dolomites Winter School* - Folgarida
+- **[11.2024](https://appliedmath.univie.ac.at/public/ACVD/events/4/home/)** - *Austrian Calculus of Variations day* - University of Innsbruck, Innsbruck
+- **[09.2024](https://sites.google.com/view/meriot2024/home)** - *MeRiOT* - Varenna
+- **[11.2023](https://appliedmath.univie.ac.at/public/ACVD/events/3/home/)** - *Austrian Calculus of Variations day* - TU Wien, Vienna
+- **[11.2022](https://appliedmath.univie.ac.at/public/ACVD/events/2/home/)** - *Austrian Calculus of Variations day* - University of Salzburg, Salzburg
+- **[06.2022](https://kantorovich.org/event/2022-optimal-transport-summer-school/)** - *PIMS-IFDS-NSF Summer School on Optimal Transport* - University of Washington, Seattle
 
 <div id="talks-map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
 <style>
