@@ -78,11 +78,17 @@ jobs:
         with:
           node-version: "22"
           cache: "npm"
+      - name: Setup Python 🐍
+        # the jekyll-jupyter-notebook plugin requires nbconvert to be importable even
+        # though this site has no .ipynb posts
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
       - name: Install and Build 🔧
-        # no .ipynb posts on this site, so the Python/nbconvert toolchain used by
-        # jekyll-jupyter-notebook is never exercised and can be skipped
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends imagemagick
+          pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
