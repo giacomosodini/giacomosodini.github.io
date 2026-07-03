@@ -93,6 +93,10 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Disable Jekyll processing on Pages 🚫
+        # without this, GitHub's own Pages pipeline tries to rebuild the already-built
+        # _site output with Jekyll again, which fails since it isn't raw Jekyll source
+        run: touch _site/.nojekyll
       - name: Upload site artifact 📦
         uses: actions/upload-artifact@v4
         with:
