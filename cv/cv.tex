@@ -195,7 +195,11 @@
         \ifreadingta
     	\IfBeginWith{\localvariable}{- **}{
 	\StrBetween[1,1]{\localvariable}{- **}{** -}[\thedate]%
-	\StrBehind{\localvariable}{** - }[\therest]%
+	\StrBehind{\localvariable}{** - }[\therestraw]%
+	% Il titolo puo' usare il corsivo Markdown con underscore "_..._": qui
+	% (dopo la data, quindi senza URL) e' sicuro normalizzarlo in "*..*",
+	% cosi' il parser sottostante lo riconosce come per gli asterischi.
+	\StrSubstitute{\therestraw}{\mdunderscore}{*}[\therest]%
 	\IfBeginWith{\therest}{*}{
 	  \StrBetween[1,1]{\therest}{*}{* - }[\thetitle]%
 	  \StrBehind{\therest}{* - }[\thelocation]
@@ -246,15 +250,32 @@
   }%
 }
 
-% Converte il corsivo Markdown "*testo*" in \emph{testo}
+% Underscore con catcode 12: serve per poterlo cercare nel testo caricato
+% dai file .md, dove gli underscore sono letti come carattere "normale".
+\begingroup\catcode`\_=12\gdef\mdunderscore{_}\endgroup
+
+% Converte il corsivo Markdown con underscore "_testo_" in \emph{testo}
+\newcommand{\ConvertMDUnderscore}[1]{%
+  \IfSubStr{#1}{\mdunderscore}{%
+    \StrBefore{#1}{\mdunderscore}[\mduprefix]%
+    \StrBetween[1,2]{#1}{\mdunderscore}{\mdunderscore}[\mdutext]%
+    \StrBehind[2]{#1}{\mdunderscore}[\mdusuffix]%
+    \mduprefix\emph{\mdutext}\ConvertMDUnderscore{\mdusuffix}%
+  }{%
+    #1%
+  }%
+}
+
+% Converte il corsivo Markdown "*testo*" in \emph{testo}; nel caso base
+% delega a \ConvertMDUnderscore per gestire anche la sintassi "_testo_".
 \newcommand{\ConvertMDItalics}[1]{%
   \IfSubStr{#1}{*}{%
     \StrBefore{#1}{*}[\mdiprefix]%
     \StrBetween[1,2]{#1}{*}{*}[\mditext]%
     \StrBehind[2]{#1}{*}[\mdisuffix]%
-    \mdiprefix\emph{\mditext}\ConvertMDItalics{\mdisuffix}%
+    \ConvertMDUnderscore{\mdiprefix}\emph{\mditext}\ConvertMDItalics{\mdisuffix}%
   }{%
-    #1%
+    \ConvertMDUnderscore{#1}%
   }%
 }
 

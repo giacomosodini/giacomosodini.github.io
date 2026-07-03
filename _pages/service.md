@@ -22,4 +22,4 @@ Discrete and Continuous Dynamical Systems; Annali della Scuola Normale Superiore
 
 ### Thesis Supervision
 
-- Lea Laimer, *Weak topologies and the James space* (Bachelor thesis, University of Vienna)
+- Lea Laimer, _Weak topologies and the James space_ (Bachelor thesis, University of Vienna)
