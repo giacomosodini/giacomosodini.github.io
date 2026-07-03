@@ -73,28 +73,22 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.13"
-          cache: "pip" # caching pip dependencies
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+          node-version: "22"
+          cache: "npm"
       - name: Install and Build 🔧
+        # no .ipynb posts on this site, so the Python/nbconvert toolchain used by
+        # jekyll-jupyter-notebook is never exercised and can be skipped
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends imagemagick
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+          npm ci
+          npx purgecss -c purgecss.config.js
       - name: Upload site artifact 📦
         # used by the broken-links-site.yml workflow
         uses: actions/upload-artifact@v4
