@@ -16,7 +16,7 @@ nav_title: "service"
 
 ### Peer Review
 
-Discrete and Continuous Dynamical Systems; Annali della Scuola Normale Superiore di Pisa - Classe di Scienze; ESAIM: Control, Optimisation and Calculus of Variations; Journal of Functional Analysis; Networks and Heterogeneous Media; SIAM Journal on Mathematics of Data Science; Canadian Mathematical Bulletin; SIAM Joutnal on Mathematical Analysis.
+Discrete and Continuous Dynamical Systems; Annali della Scuola Normale Superiore di Pisa - Classe di Scienze; ESAIM: Control, Optimisation and Calculus of Variations; Journal of Functional Analysis; Networks and Heterogeneous Media; SIAM Journal on Mathematics of Data Science; Canadian Mathematical Bulletin; SIAM Journal on Mathematical Analysis; Journal of Evolution Equations.
 
 ---
 
